@@ -3,35 +3,36 @@ import nltk
 from nltk import PorterStemmer
 from nltk.corpus import wordnet as wn
 
-DATASET_PATH = "/home/karthik/databot/nlu_module/IMDB-Movie-Data.csv"
+def init_datababse():
+        
+    DATASET_PATH = "/home/karthik/databot/nlu_module/imdb-alter.csv"
 
-df = pd.read_csv(DATASET_PATH)
+    df = pd.read_csv(DATASET_PATH)
 
-columns = df.columns
+    columns = df.columns
 
-ps_stemmer = PorterStemmer()
+    ps_stemmer = PorterStemmer()
 
-stem_columns = [(ps_stemmer.stem(s),s) for s in columns]
+    stem_columns = [(ps_stemmer.stem(s),s) for s in columns]
 
-stem_to_col = {}
-
-for stem in stem_columns:
-    stem_to_col[stem[0]] = stem[1]
-
+    return stem_columns
 
 def wrap_convert(columns):
-
     verbs_to_col = {}
 
     for stem_column, column in columns:
         verbs = convert(stem_column, 'n', 'v')
         if(len(verbs) == 0):
+            verbs_to_col[column] = []
+            verbs_to_col[column].append(column)
             continue
         res_verbs = []
 
+        res_verbs.append(column)
         for verb in verbs:
             if(verb[1] >= 0.1):
                 res_verbs.append(verb[0])
+        res_verbs = list(set(res_verbs))
         verbs_to_col[column] = res_verbs
     return verbs_to_col
 
@@ -43,7 +44,7 @@ def convert(word, from_pos, to_pos):
 	WN_ADVERB = 'r'
 
 	synsets = wn.synsets(word, pos=from_pos)
- 
+    # print(synsets)
     # Word not found
 	if not synsets:
 		return []
@@ -77,4 +78,5 @@ def convert(word, from_pos, to_pos):
 	
     # return all the possibilities sorted by probability
 	return result
-print(wrap_convert(stem_columns))
+if __name__ == "__main__":
+    print(wrap_convert(init_datababse()))

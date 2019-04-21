@@ -7,11 +7,62 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tree import Tree
 from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
-from intent_rec import Intent_classification_final 
+import recEntities
+from fuzzywuzzy import fuzz, process
+import parse_tree
+import db_handler
+
+col_pos = {'Actor':'NNP', 'Director':'NNP', 'Rating':'CD', 'Year':'CD'}
+def recColoumns(query_text):
+    query_text_words = query_text.split()
+
+    stem_columns = recEntities.init_datababse()
+    # print(stem_columns)
+
+    verb_to_col = recEntities.wrap_convert(stem_columns)
+
+    print(verb_to_col)
+    print("\n\n")
+    matched_words_col = {}
+    for col, col_var in verb_to_col.items():
+        for word in col_var:
+            res = process.extractOne(word, query_text_words)
+            if(res[1] > 70):
+                print("Column is " + col)
+                print("Matched word is " + res[0])
+                print("With accuracy " + str(res[1]))
+                matched_words_col[res[0]] = col
+                print("\n\n")
+    return matched_words_col
+
+def get_relationship(query_text):
+    str_parse_tree = parse_tree.get_parse_tree(query_text)
+    matched_words_col = recColoumns(query_text)
+    print(str_parse_tree)
+    print(matched_words_col)
+    db_inp_dic = {}
+    for key, value in matched_words_col.items():
+        pos_tag = col_pos[value]
+
+        node, val = parse_tree.get_relation(str_parse_tree, key, pos_tag)
+
+        print("\n\n\n\n")
+        print(node)
+        print("\n\n\n\n")
+        print(val)
+
+        if(val != False):
+            db_inp_dic[value.lower()] = val
+    print(db_inp_dic)
+
+    rows = db_handler.db_select(db_inp_dic)
+    print(rows)
 
 def chunking(tag_words):
-    grammar = r"""inter : {<IN>?<WDT>?<WRB>?<WP/$>?}
-                intent : {<MD.?>?<PRP>?<VB.?><JJ>?<CD>?<NN.?>+<CC>?<NN.?>?}"""
+    # grammar = r"""inter : {<IN>?<WDT>?<WRB>?<WP/$>?}
+    #             intent : {<MD.?>?<PRP>?<VB.?><JJ>?<CD>?<NN.?>+<CC>?<NN.?>?}"""
+
+    grammar = r"""inter : {<IN>?<WDT>?<WRB>?<WP/$>?}"""
 
     parser = nltk.RegexpParser(grammar)
     chunked = parser.parse(tag_words)
@@ -21,20 +72,30 @@ def chunking(tag_words):
         # print(subtree.label())
     intent_text = ''
     inter_text = ''
-    for subtree in chunked.subtrees(filter=lambda t: t.label() == 'intent'):
-        intent_text = " ".join([text for text, pos in subtree.leaves()])
+    # for subtree in chunked.subtrees(filter=lambda t: t.label() == 'intent'):
+    #     intent_text = " ".join([text for text, pos in subtree.leaves()])
     for subtree in chunked.subtrees(filter=lambda t: t.label() == 'inter'):
         inter_text = " ".join([text for text, pos in subtree.leaves()])
     
-    rest = []
+    q = []
+    i = []
+    f = True
     for chunk in chunked:
         if type(chunk) != Tree:
-            rest.append(chunk[0])
-    query_text = " ".join(rest)
+            if f:
+                i.append(chunk[0])
+            else:
+                q.append(chunk[0])
+        else:
+            f = False
+    
+    query_text = " ".join(q)
+    intent_text = " ".join(i)
     # log.info(intent_text)
-    print("Intent text is " + intent_text)
-    print("Intermediate text is " + inter_text) 
-    print("query is " + query_text)
+    print("Intent text is ---" + intent_text)
+    print("Intermediate text is ---" + inter_text) 
+    print("query is ---" + query_text)
+    print("\n\n\n\n\n")
     return intent_text, inter_text, query_text
 
 
@@ -44,7 +105,7 @@ def chunkIntent(tag_words):
     parser = nltk.RegexpParser(grammar)
     chunked = parser.parse(tag_words)
 
-    print(chunked)
+    # print(chunked)
     for subtree in chunked.subtrees(filter=lambda t: t.label() == 'Chunk'):
         print(subtree)
 
@@ -79,14 +140,17 @@ def filter(sentence):
 
     # filtered_words = remove_stopwords(words)
     tag_words = tagging(words)
-    print(tag_words)
+    # print(tag_words)
     nouns, proper_nouns, verbs = groupNounVerb(tag_words)
     split_input = []
     split_input = chunking(tag_words)
     # print(Intent_classification_final.predict(split_input[0]))
-    print(nouns)
-    print(proper_nouns)
-    print(verbs)
+    print("\n\n\n")
+    print("nouns " + str(nouns))
+    print("proper nouns " + str(proper_nouns))
+    print("verbs " + str(verbs))
+    print("\n\n\n")
+    print(get_relationship(split_input[2]))
 
 def remove_stopwords(words):
     stop_words = list(stopwords.words('english'))
@@ -121,10 +185,5 @@ def get_continuous_chunks(tagged_words):
     return continuous_chunk
     
 
-
 if __name__ == "__main__":
-    # print(filter("Barack Obama is the president of Italy"))
-    # print(filter("Get all Tom Hardy's movies."))    
-    # print(filter("WASHINGTON -- In the wake of a string of abuses by New York police officers in the 1990s, Loretta E. Lynch, the top federal prosecutor in Brooklyn, spoke forcefully about the pain of a broken trust that African-Americans felt and said the responsibility for repairing generations of miscommunication and mistrust fell to law enforcement."))    
-    print(filter("can you get three movies in which Tom Hardy is the actor and Will is the director"))
-    # print(filter("I want sudent marks  where year is 2017"))
+    filter("get movies where year is 2016" )
