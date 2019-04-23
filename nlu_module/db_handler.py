@@ -58,26 +58,63 @@ def populate_csv_db(file_path):
         con.rollback()
     return False
 
-def db_select(params):
-    prefix = "SELECT * FROM movies WHERE "
+def db_select(params, intent_info, col_type, adj_dic):
+    space = ' '
     and_literal = " and "
-    cols = params.keys()
-    par = params.values()
 
+    temp_col_type = {}
+    for key, val in col_type.items():
+        temp_col_type[key.lower()] = val
+    col_type = temp_col_type
+    prefix = "SELECT * FROM movies WHERE "
+    for key, val in intent_info.items():
+        if val:
+            if key == 'get' or key == 'select':
+                prefix = "SELECT * FROM movies WHERE "
+            elif key == 'update':
+                prefix = "UPDATE movies WHERE "
+            elif key == 'delete':
+                pre_type = 'DELETE FROM movies WHERE '
+    
+
+    cols = params.keys()
+    
     query_str = ''
     for col in cols:
         query_str += str(col)
-        query_str += '='
+        if col_type[col] == 'string':
+            query_str += ' LIKE '
+        else:
+            if col_type[col] == 'int' or col_type[col] == 'float':
+                f = False
+                for sym, b in adj_dic.items():
+                    if b:
+                        query_str += space+sym+space
+                        f = True
+                        break
+                if not f:
+                    query_str += '='
+
+            else: 
+                query_str += '='
         query_str += '?'
         query_str += and_literal
     
     query_str = query_str[:len(query_str)-len(and_literal)]
     print(query_str)
 
-    print(tuple(par))
 
     con = db_connect()
     cur = con.cursor()
+
+    par = []
+    for key, val in params.items():
+        if col_type[key] == 'string':
+            par.append('%'+val+'%')
+        else:
+            par.append(val)
+
+    print(tuple(par))
 
     fin_query = prefix+query_str
     print(fin_query)
@@ -93,4 +130,4 @@ if __name__ == "__main__":
     # print(populate_csv_db("imdb-alter.csv"))
 
     params = {'actor':'Tom Hanks'}
-    db_select(params)
+    # db_select(params)

@@ -1,8 +1,11 @@
 import pandas as pd
-from nltk import pos_tag
+from nltk import pos_tag, word_tokenize
 import csv
 import numpy
 from textblob import TextBlob
+from word2number import w2n
+from nltk.corpus import wordnet
+
 # def split_actors():
     # DATASET_PATH = "/home/karthik/databot/nlu_module/IMDB-Movie-Data.csv"
 
@@ -84,7 +87,8 @@ def get_stats():
                 count_pos[col]['float'] += 1
     return count_pos, pos_count            
 
-def get_col_pos(count_type, count_pos):
+def get_col_pos():
+    count_type, count_pos = get_stats()
     final_type = {}
     final_pos = {}
     
@@ -108,5 +112,82 @@ def get_col_pos(count_type, count_pos):
     
     return final_type,final_pos
 
-count_type, count_pos = get_stats()
-print(get_col_pos(count_type, count_pos))
+
+def get_number(text):
+    tags = TextBlob(text).tags
+    for tag in tags:
+        if tag[1] == 'CD':
+            num = w2n.word_to_num(str(tag[0]))
+            return num
+    return False
+
+def get_intent(text):
+    words = word_tokenize(text)
+
+    intent_dic = {'select':False, 'delete':False, 'get':False, 'update': False}
+
+    intent_syn = {'select':[], 'delete':[] ,'get':[], 'update': []}
+    
+    for intent in intent_dic.keys():
+        for word in wordnet.synsets(intent):
+            for lm in word.lemmas():
+                intent_syn[intent].append(lm.name())
+
+    for word in words:
+        for intent, syn in intent_syn.items():
+            if word in syn:
+                intent_dic[intent] = True
+    
+    return intent_dic
+
+def get_col_ind(columns):
+    columns_ind = {}
+
+    for ind in range(0, len(columns)):
+        columns_ind[columns[ind]] = ind+1
+    return columns_ind
+
+def init_df(path='/home/karthik/databot/nlu_module/imdb-alter.csv'):
+    return pd.read_csv(path)
+
+def adj_syn():
+
+    adj_high = ['greater', 'higher', 'more', 'better', 'after']
+    high_syn = []
+    for word in adj_high:
+        for syn in wordnet.synsets(word):
+            for lem in syn.lemmas():
+                high_syn.append(lem.name())
+
+    adj_low = ['less', 'lower', 'before', 'low', 'better']
+    low_syn = []
+    for word in adj_low:
+        for syn in wordnet.synsets(word):
+            for lem in syn.lemmas():
+                low_syn.append(lem.name())
+
+    return high_syn, low_syn
+
+def get_adj(text):
+    tags = TextBlob(text).tags
+
+    adj_dic = {'>=':False, '<=':False}
+
+    high_syn, low_syn = adj_syn()
+
+    tag = filter(lambda pos : pos[1] == 'JJR', tags)
+
+    for t in tag:
+        if t[0] in high_syn:
+            adj_dic['>='] = True
+        elif t[0] in low_syn:
+            adj_dic['<='] = True
+    
+    return adj_dic
+
+if __name__ == "__main__":
+    # print(get_col_pos())
+    # print(get_intent('can I have three movies'))
+    # print(get_number('select three movies'))
+
+    print(get_adj('rating higher than 9'))

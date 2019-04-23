@@ -11,8 +11,52 @@ import recEntities
 from fuzzywuzzy import fuzz, process
 import parse_tree
 import db_handler
+import util
+import retry
+import info
 
-col_pos = {'Actor':'NNP', 'Director':'NNP', 'Rating':'CD', 'Year':'CD'}
+
+def recColoumns_temp(query_text):
+    query_text_words = query_text.split()
+
+    stem_columns = recEntities.init_datababse()
+    # print(stem_columns)
+
+    verb_to_col = recEntities.wrap_convert(stem_columns)
+
+    print(verb_to_col)
+    print("\n\n")
+    matched_words_col = {}
+    # for col, col_var in verb_to_col.items():
+    #     for word in col_var:
+    #         res = process.extractOne(word, query_text_words)
+    #         if(res[1] > 70):
+    #             print("Column is " + col)
+    #             print("Matched word is " + res[0])
+    #             print("With accuracy " + str(res[1]))
+    #             matched_words_col[res[0]] = col
+    #             print("\n\n")
+
+    for word in query_text_words:
+        max_acc = 0
+        col_mat = ''
+        for col, col_var in verb_to_col.items():
+            res = process.extractOne(word, col_var)
+            if(res[1] > 70):
+                print("word is "+word)
+                print("Column is " + col)
+                print("Matched word is " + res[0])
+                print("With accuracy " + str(res[1]))
+                if(res[1] > max_acc):
+                    print(res[1], max_acc, col, col_mat)
+                    max_acc = res[1]
+                    col_mat = col
+                print("\n\n")
+        if(col_mat == ''):
+            continue
+        matched_words_col[word] = col_mat
+    return matched_words_col
+
 def recColoumns(query_text):
     query_text_words = query_text.split()
 
@@ -35,12 +79,16 @@ def recColoumns(query_text):
                 print("\n\n")
     return matched_words_col
 
-def get_relationship(query_text):
+def get_relationship(query_text, intent_info):
     str_parse_tree = parse_tree.get_parse_tree(query_text)
-    matched_words_col = recColoumns(query_text)
+    matched_words_col = recColoumns_temp(query_text)
     print(str_parse_tree)
     print(matched_words_col)
     db_inp_dic = {}
+    col_type, col_pos = util.get_col_pos()
+    print(col_pos)
+    adj_dic = util.get_adj(query_text)
+    rows = []
     for key, value in matched_words_col.items():
         pos_tag = col_pos[value]
 
@@ -51,12 +99,46 @@ def get_relationship(query_text):
         print("\n\n\n\n")
         print(val)
 
-        if(val != False):
+        if(val != False and val is not None):
             db_inp_dic[value.lower()] = val
-    print(db_inp_dic)
+                     
+            print(db_inp_dic)
 
-    rows = db_handler.db_select(db_inp_dic)
-    print(rows)
+            rows.append(db_handler.db_select(db_inp_dic, intent_info, col_type, adj_dic))
+            print(rows)
+        else:
+            matched_rows = retry.retry(value, query_text)
+            
+            rows.append( [row.tolist() for row in matched_rows])
+            print(rows)
+    return rows
+
+def get_intent_col(text):
+    matched_words_col = recColoumns_temp(text)
+    print('matched_words_col')
+    
+    print(matched_words_col)
+    if not matched_words_col:
+        return ['Title']
+    elif 'movie' in text or 'movies' in text:
+        return ['Title']
+    cols = [val for key, val in matched_words_col.items()]
+    return cols
+
+def get_intent_info(query_text):
+    intent = util.get_intent(query_text)
+    
+    for key, val in intent.items():
+        if val:
+            query_text = query_text.replace(key, '')
+    cols = get_intent_col(query_text)
+
+    number = util.get_number(query_text)
+
+    
+    intent_info = {'cols':cols, 'number':number, 'intent':intent}
+
+    return intent_info
 
 def chunking(tag_words):
     # grammar = r"""inter : {<IN>?<WDT>?<WRB>?<WP/$>?}
@@ -135,7 +217,6 @@ def groupNounVerb(tag_words):
 
 
 def filter(sentence):
-    log.info(sentence)
     words = word_tokenize(sentence)
 
     # filtered_words = remove_stopwords(words)
@@ -150,7 +231,9 @@ def filter(sentence):
     print("proper nouns " + str(proper_nouns))
     print("verbs " + str(verbs))
     print("\n\n\n")
-    print(get_relationship(split_input[2]))
+    intent_info = get_intent_info(split_input[0])
+    rows = get_relationship(split_input[2], intent_info)
+    info.filter_info(rows, intent_info)
 
 def remove_stopwords(words):
     stop_words = list(stopwords.words('english'))
@@ -186,4 +269,4 @@ def get_continuous_chunks(tagged_words):
     
 
 if __name__ == "__main__":
-    filter("get movies where year is 2016" )
+    filter("get movie where year is 2016" )
