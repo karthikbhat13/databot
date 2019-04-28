@@ -3,6 +3,7 @@ import pandas as pd
 import util
 import db_handler
 
+
 def filter_info(db_rows, intent_info):
     df = util.init_df()
     columns = df.columns
@@ -14,5 +15,7 @@ def filter_info(db_rows, intent_info):
 
     # print(rows_df)
 
-    print(rows_df[intent_info['cols']])    
-    # print(rows_df[['Title']])
+    final_rows = rows_df    
+    
+    return final_rows, intent_info
+

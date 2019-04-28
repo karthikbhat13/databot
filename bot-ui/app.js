@@ -11,7 +11,7 @@ app.get('/', function(req, res){
     res.sendFile(__dirname + '/views' +'/index.html');
 })
 
-var server = app.listen(9000, function () {
+var server = app.listen(8000, function () {
     var host = server.address().address
     var port = server.address().port
     

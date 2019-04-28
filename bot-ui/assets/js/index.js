@@ -1,31 +1,121 @@
-$(document).on('click', '.panel-heading span.icon_minim', function (e) {
-    var $this = $(this);
-    if (!$this.hasClass('panel-collapsed')) {
-        $this.parents('.panel').find('.panel-body').slideUp();
-        $this.addClass('panel-collapsed');
-        $this.removeClass('glyphicon-minus').addClass('glyphicon-plus');
-    } else {
-        $this.parents('.panel').find('.panel-body').slideDown();
-        $this.removeClass('panel-collapsed');
-        $this.removeClass('glyphicon-plus').addClass('glyphicon-minus');
+
+var sessionDone = 1;
+var submit = function(){
+    input = document.getElementById("userInput").value
+    document.getElementById("userInput").value = ''
+    console.log(input)
+    createResponse('user', input);
+
+    greetings = ["hi", "hey", "hello", "greetings"]
+    greetings.forEach(element => {
+        if(element.toLowerCase() == input){
+            createResponse('bot', "Hi! How may I help you?", 1);
+            return;
+        }
+    });
+    
+    var xhr = new XMLHttpRequest()
+    xhr.open('POST', 'http://localhost:5000/user_input', true)
+    xhr.setRequestHeader('Content-type' , 'application/x-www-form-urlencoded')
+
+    xhr.send('user_input='+input+'&sessionDone='+String(sessionDone))
+    xhr.timeout = 10000;
+    xhr.onload = function(){
+        if(xhr.readyState == 4 && xhr.status == 200){
+            resp = JSON.parse(xhr.response)
+            console.log(resp.text)
+            sessionDone = parseInt(resp['sessionDone'])
+            console.log(sessionDone)
+            if(resp.text.length > 0)
+                createResponse('bot', resp.text, sessionDone)
+            else
+            {
+                sessionDone = 1;
+                createResponse('bot', "Sorry, we could not find appropriate response for you", sessionDone);
+            }
+        }
     }
-});
-$(document).on('focus', '.panel-footer input.chat_input', function (e) {
-    var $this = $(this);
-    if ($('#minim_chat_window').hasClass('panel-collapsed')) {
-        $this.parents('.panel').find('.panel-body').slideDown();
-        $('#minim_chat_window').removeClass('panel-collapsed');
-        $('#minim_chat_window').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+
+    xhr.ontimeout = function(){
+        sessionDone = 1;
+        createResponse('bot', "Sorry, something went wrong. Request has timed out", sessionDone);
     }
-});
-$(document).on('click', '#new_chat', function (e) {
-    var size = $( ".chat-window:last-child" ).css("margin-left");
-     size_total = parseInt(size) + 400;
-    alert(size_total);
-    var clone = $( "#chat_window_1" ).clone().appendTo( ".container" );
-    clone.css("margin-left", size_total);
-});
-$(document).on('click', '.icon_close', function (e) {
-    //$(this).parent().parent().parent().parent().remove();
-    $( "#chat_window_1" ).remove();
-});
+
+    xhr.onerror = function(){
+        sessionDone = 1
+        createResponse('bot', "Sorry, something went wrong. We encountered an error.", sessionDone)
+    }
+}
+
+var createResponse = function(type, text, sd){
+    console.log(type);
+    console.log(text);
+    console.log(sd)
+    if(type == 'bot'){
+        var div = document.createElement('div')
+        div.setAttribute('class', 'container')
+
+        var img = document.createElement('img')
+        img.setAttribute('src', '/assets/bot.png')
+        img.setAttribute('style', 'width=100%;')
+        img.setAttribute('alt', 'Bot')
+        img.setAttribute('class', 'left')
+
+        var par = document.createElement('p')
+        if(sd == 0){
+            prefix = "Hey, your query fetched multiple results.\nHelp us narrow down, can you tell me about "
+            par.innerHTML = prefix+text
+        }
+        else{
+            par.innerHTML = text
+        }
+        par.setAttribute('class', 'bot')
+        
+        var span = document.createElement('span')
+        span.setAttribute('class', 'time-left')
+        
+        var d = new Date()
+
+        var h = d.getHours()
+        var min = d.getMinutes()
+
+        span.innerHTML = String(h) + ':' +String(min)
+
+        div.appendChild(img);
+        div.appendChild(par)
+        div.appendChild(span)
+
+        document.getElementById('body').appendChild(div);
+    }
+
+    else{
+        var div = document.createElement('div')
+        div.setAttribute('class', 'container darker')
+
+        var img = document.createElement('img')
+        img.setAttribute('src', '/assets/user.png')
+        img.setAttribute('style', 'width=100%;')
+        img.setAttribute('alt', 'User')
+        img.setAttribute('class', 'right')
+
+        var par = document.createElement('p')
+        par.innerHTML = text
+        par.setAttribute('class', 'user')
+        
+        var span = document.createElement('span')
+        span.setAttribute('class', 'time-right')
+        
+        var d = new Date()
+
+        var h = d.getHours()
+        var min = d.getMinutes()
+
+        span.innerHTML = String(h) + ':' +String(min)
+
+        div.appendChild(img);
+        div.appendChild(par)
+        div.appendChild(span)
+
+        document.getElementById('body').appendChild(div)
+    }
+}

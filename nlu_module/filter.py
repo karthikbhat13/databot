@@ -58,6 +58,11 @@ def recColoumns_temp(query_text):
     return matched_words_col
 
 def recColoumns(query_text):
+    if 'movie' in query_text:
+        query_text.replace('movie', 'title')
+    if 'movies' in query_text:
+        query_text.replace('movies', 'title')
+
     query_text_words = query_text.split()
 
     stem_columns = recEntities.init_datababse()
@@ -82,6 +87,15 @@ def recColoumns(query_text):
 def get_relationship(query_text, intent_info):
     str_parse_tree = parse_tree.get_parse_tree(query_text)
     matched_words_col = recColoumns_temp(query_text)
+
+    if not matched_words_col:
+        rows = retry.no_col_match(query_text)
+        if rows:
+            rows = [row.tolist() for row in rows]
+            print(rows)
+            return [rows]
+
+    
     print(str_parse_tree)
     print(matched_words_col)
     db_inp_dic = {}
@@ -233,7 +247,8 @@ def filter(sentence):
     print("\n\n\n")
     intent_info = get_intent_info(split_input[0])
     rows = get_relationship(split_input[2], intent_info)
-    info.filter_info(rows, intent_info)
+    final_rows, intent_info =  info.filter_info(rows, intent_info)
+    return final_rows, intent_info
 
 def remove_stopwords(words):
     stop_words = list(stopwords.words('english'))
@@ -269,4 +284,4 @@ def get_continuous_chunks(tagged_words):
     
 
 if __name__ == "__main__":
-    filter("get movie where year is 2016" )
+    filter("get movies of 2016" )

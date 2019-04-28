@@ -1,8 +1,8 @@
-var app = angular.module('mainModule', []);
-app.controller('mainController', ['$scope', '$http', function($scope, $http){
-    $scope.obj = {
-        send : function(){
-            alert("SEND");
-        }
+var app = angular.module('databot', []);
+app.controller('bot-controller', ['$scope', '$http', function($scope, $http){
+    
+    $scope.userInput = ''
+    $scope.submit = function(){
+        
     }
 }]);

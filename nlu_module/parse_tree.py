@@ -231,3 +231,7 @@ if __name__ == "__main__":
 	node, val = get_relation(get_parse_tree("Tom Hanks has acted"), 'acted', 'NNP')
 
 	print(node, val)
+	# print("\n\n\n\n\n\n\n")
+	# print("INPUT IS  : get movies in which Tom Hanks has acted")
+	# get_parse_tree("get movies in which Tom Hanks has acted")
+	# print("\n\n\n\n\n\n\n")

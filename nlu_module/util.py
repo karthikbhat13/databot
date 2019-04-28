@@ -7,7 +7,7 @@ from word2number import w2n
 from nltk.corpus import wordnet
 
 # def split_actors():
-    # DATASET_PATH = "/home/karthik/databot/nlu_module/IMDB-Movie-Data.csv"
+#     DATASET_PATH = "/home/karthik/databot/nlu_module/imdb-alter.csv"
 
 #     with open(DATASET_PATH, 'r') as file:
 #         csv_reader = csv.reader(file)
@@ -19,7 +19,7 @@ from nltk.corpus import wordnet
 #         for row in csv_reader:
 #             temp_row = []
 #             for i in range(len(row)):
-#                 if i == 5:
+#                 if i == 2:
 #                     temp_row.append(row[i].split(',')[0])
 #                 else:
 #                     temp_row.append(row[i])
@@ -122,6 +122,7 @@ def get_number(text):
     return False
 
 def get_intent(text):
+    text = text.lower()
     words = word_tokenize(text)
 
     intent_dic = {'select':False, 'delete':False, 'get':False, 'update': False}
@@ -133,11 +134,15 @@ def get_intent(text):
             for lm in word.lemmas():
                 intent_syn[intent].append(lm.name())
 
+    any_true = False
     for word in words:
         for intent, syn in intent_syn.items():
             if word in syn:
+                any_true = True
                 intent_dic[intent] = True
-    
+
+    if not any_true:
+        intent_dic['get'] = True    
     return intent_dic
 
 def get_col_ind(columns):
@@ -189,5 +194,5 @@ if __name__ == "__main__":
     # print(get_col_pos())
     # print(get_intent('can I have three movies'))
     # print(get_number('select three movies'))
-
-    print(get_adj('rating higher than 9'))
+    # print(split_actors())
+    # print(get_adj('rating higher than 9'))

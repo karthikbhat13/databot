@@ -34,6 +34,16 @@ def get_match(col_rows, text):
         ind = col_rows_values.index(match[0], ind+1)
         ind_match.append((ind, match[0]))
     return ind_match
-    
+
+def no_col_match(text):
+    df = util.init_df("/home/karthik/databot/nlu_module/imdb-alter.csv")
+
+    columns = df.columns
+
+    for col in columns:
+        rows = retry(col, text)
+        if len(rows) > 0:
+            return rows
+    return False
 if __name__ == "__main__":
     retry('Actor', 'acted by Tom Hanks')

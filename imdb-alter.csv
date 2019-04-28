@@ -1,0 +1,1001 @@
+Rank,Title,Genre,Director,Actor,Year,Rating,Votes
+1,Guardians of the Galaxy,"Action,Adventure,Sci-Fi",James Gunn,Chris Pratt,2014,8.1,757074
+2,Prometheus,"Adventure,Mystery,Sci-Fi",Ridley Scott,Noomi Rapace,2012,7,485820
+3,Split,"Horror,Thriller",M. Night Shyamalan,James McAvoy,2016,7.3,157606
+4,Sing,"Animation,Comedy,Family",Christophe Lourdelet,Matthew McConaughey,2016,7.2,60545
+5,Suicide Squad,"Action,Adventure,Fantasy",David Ayer,Will Smith,2016,6.2,393727
+6,The Great Wall,"Action,Adventure,Fantasy",Yimou Zhang,Matt Damon,2016,6.1,56036
+7,La La Land,"Comedy,Drama,Music",Damien Chazelle,Ryan Gosling,2016,8.3,258682
+8,Mindhorn,Comedy,Sean Foley,Essie Davis,2016,6.4,2490
+9,The Lost City of Z,"Action,Adventure,Biography",James Gray,Charlie Hunnam,2016,7.1,7188
+10,Passengers,"Adventure,Drama,Romance",Morten Tyldum,Jennifer Lawrence,2016,7,192177
+11,Fantastic Beasts and Where to Find Them,"Adventure,Family,Fantasy",David Yates,Eddie Redmayne,2016,7.5,232072
+12,Hidden Figures,"Biography,Drama,History",Theodore Melfi,Taraji P. Henson,2016,7.8,93103
+13,Rogue One,"Action,Adventure,Sci-Fi",Gareth Edwards,Felicity Jones,2016,7.9,323118
+14,Moana,"Animation,Adventure,Comedy",Ron Clements,Auli'i Cravalho,2016,7.7,118151
+15,Colossal,"Action,Comedy,Drama",Nacho Vigalondo,Anne Hathaway,2016,6.4,8612
+16,The Secret Life of Pets,"Animation,Adventure,Comedy",Chris Renaud,Louis C.K.,2016,6.6,120259
+17,Hacksaw Ridge,"Biography,Drama,History",Mel Gibson,Andrew Garfield,2016,8.2,211760
+18,Jason Bourne,"Action,Thriller",Paul Greengrass,Matt Damon,2016,6.7,150823
+19,Lion,"Biography,Drama",Garth Davis,Dev Patel,2016,8.1,102061
+20,Arrival,"Drama,Mystery,Sci-Fi",Denis Villeneuve,Amy Adams,2016,8,340798
+21,Gold,"Adventure,Drama,Thriller",Stephen Gaghan,Matthew McConaughey,2016,6.7,19053
+22,Manchester by the Sea,Drama,Kenneth Lonergan,Casey Affleck,2016,7.9,134213
+23,Hounds of Love,"Crime,Drama,Horror",Ben Young,Emma Booth,2016,6.7,1115
+24,Trolls,"Animation,Adventure,Comedy",Walt Dohrn,Anna Kendrick,2016,6.5,38552
+25,Independence Day: Resurgence,"Action,Adventure,Sci-Fi",Roland Emmerich,Liam Hemsworth,2016,5.3,127553
+26,Paris pieds nus,Comedy,Dominique Abel,Fiona Gordon,2016,6.8,222
+27,Bahubali: The Beginning,"Action,Adventure,Drama",S.S. Rajamouli,Prabhas,2015,8.3,76193
+28,Dead Awake,"Horror,Thriller",Phillip Guzman,Jocelin Donahue,2016,4.7,523
+29,Bad Moms,Comedy,Jon Lucas,Mila Kunis,2016,6.2,66540
+30,Assassin's Creed,"Action,Adventure,Drama",Justin Kurzel,Michael Fassbender,2016,5.9,112813
+31,Why Him?,Comedy,John Hamburg,Zoey Deutch,2016,6.3,48123
+32,Nocturnal Animals,"Drama,Thriller",Tom Ford,Amy Adams,2016,7.5,126030
+33,X-Men: Apocalypse,"Action,Adventure,Sci-Fi",Bryan Singer,James McAvoy,2016,7.1,275510
+34,Deadpool,"Action,Adventure,Comedy",Tim Miller,Ryan Reynolds,2016,8,627797
+35,Resident Evil: The Final Chapter,"Action,Horror,Sci-Fi",Paul W.S. Anderson,Milla Jovovich,2016,5.6,46165
+36,Captain America: Civil War,"Action,Adventure,Sci-Fi",Anthony Russo,Chris Evans,2016,7.9,411656
+37,Interstellar,"Adventure,Drama,Sci-Fi",Christopher Nolan,Matthew McConaughey,2014,8.6,1047747
+38,Doctor Strange,"Action,Adventure,Fantasy",Scott Derrickson,Benedict Cumberbatch,2016,7.6,293732
+39,The Magnificent Seven,"Action,Adventure,Western",Antoine Fuqua,Denzel Washington,2016,6.9,122853
+40,5- 25- 77,"Comedy,Drama",Patrick Read Johnson,John Francis Daley,2007,7.1,241
+41,Sausage Party,"Animation,Adventure,Comedy",Greg Tiernan,Seth Rogen,2016,6.3,120690
+42,Moonlight,Drama,Barry Jenkins,Mahershala Ali,2016,7.5,135095
+43,Don't Fuck in the Woods,Horror,Shawn Burkett,Brittany Blanton,2016,2.7,496
+44,The Founder,"Biography,Drama,History",John Lee Hancock,Michael Keaton,2016,7.2,37033
+45,Lowriders,Drama,Ricardo de Montreuil,Gabriel Chavarria,2016,6.3,279
+46,Pirates of the Caribbean: On Stranger Tides,"Action,Adventure,Fantasy",Rob Marshall,Johnny Depp,2011,6.7,395025
+47,Miss Sloane,"Drama,Thriller",John Madden,Jessica Chastain,2016,7.3,17818
+48,Fallen,"Adventure,Drama,Fantasy",Scott Hicks,Hermione Corfield,2016,5.6,5103
+49,Star Trek Beyond,"Action,Adventure,Sci-Fi",Justin Lin,Chris Pine,2016,7.1,164567
+50,The Last Face,Drama,Sean Penn,Charlize Theron,2016,3.7,987
+51,Star Wars: Episode VII - The Force Awakens,"Action,Adventure,Fantasy",J.J. Abrams,Daisy Ridley,2015,8.1,661608
+52,Underworld: Blood Wars,"Action,Adventure,Fantasy",Anna Foerster,Kate Beckinsale,2016,5.8,41362
+53,Mother's Day,"Comedy,Drama",Garry Marshall,Jennifer Aniston,2016,5.6,20221
+54,John Wick,"Action,Crime,Thriller",Chad Stahelski,Keanu Reeves,2014,7.2,321933
+55,The Dark Knight,"Action,Crime,Drama",Christopher Nolan,Christian Bale,2008,9,1791916
+56,Silence,"Adventure,Drama,History",Martin Scorsese,Andrew Garfield,2016,7.3,49190
+57,Don't Breathe,"Crime,Horror,Thriller",Fede Alvarez,Stephen Lang,2016,7.2,121103
+58,Me Before You,"Drama,Romance",Thea Sharrock,Emilia Clarke,2016,7.4,113322
+59,Their Finest,"Comedy,Drama,Romance",Lone Scherfig,Gemma Arterton,2016,7,3739
+60,Sully,"Biography,Drama",Clint Eastwood,Tom Hanks,2016,7.5,137608
+61,Batman v Superman: Dawn of Justice,"Action,Adventure,Sci-Fi",Zack Snyder,Ben Affleck,2016,6.7,472307
+62,The Autopsy of Jane Doe,"Horror,Mystery,Thriller",André Øvredal,Brian Cox,2016,6.8,35870
+63,The Girl on the Train,"Crime,Drama,Mystery",Tate Taylor,Emily Blunt,2016,6.5,102177
+64,Fifty Shades of Grey,"Drama,Romance,Thriller",Sam Taylor-Johnson,Dakota Johnson,2015,4.1,244474
+65,The Prestige,"Drama,Mystery,Sci-Fi",Christopher Nolan,Christian Bale,2006,8.5,913152
+66,Kingsman: The Secret Service,"Action,Adventure,Comedy",Matthew Vaughn,Colin Firth,2014,7.7,440209
+67,Patriots Day,"Drama,History,Thriller",Peter Berg,Mark Wahlberg,2016,7.4,39784
+68,Mad Max: Fury Road,"Action,Adventure,Sci-Fi",George Miller,Tom Hardy,2015,8.1,632842
+69,Wakefield,Drama,Robin Swicord,Bryan Cranston,2016,7.5,291
+70,Deepwater Horizon,"Action,Drama,Thriller",Peter Berg,Mark Wahlberg,2016,7.2,89849
+71,The Promise,"Drama,History",Terry George,Oscar Isaac,2016,5.9,149791
+72,Allied,"Action,Drama,Romance",Robert Zemeckis,Brad Pitt,2016,7.1,78079
+73,A Monster Calls,"Drama,Fantasy",J.A. Bayona,Lewis MacDougall,2016,7.5,39134
+74,Collateral Beauty,"Drama,Romance",David Frankel,Will Smith,2016,6.8,43977
+75,Zootopia,"Animation,Adventure,Comedy",Byron Howard,Ginnifer Goodwin,2016,8.1,296853
+76,Pirates of the Caribbean: At World's End,"Action,Adventure,Fantasy",Gore Verbinski,Johnny Depp,2007,7.1,498821
+77,The Avengers,"Action,Sci-Fi",Joss Whedon,Robert Downey Jr.,2012,8.1,1045588
+78,Inglourious Basterds,"Adventure,Drama,War",Quentin Tarantino,Brad Pitt,2009,8.3,959065
+79,Pirates of the Caribbean: Dead Man's Chest,"Action,Adventure,Fantasy",Gore Verbinski,Johnny Depp,2006,7.3,552027
+80,Ghostbusters,"Action,Comedy,Fantasy",Paul Feig,Melissa McCarthy,2016,5.3,147717
+81,Inception,"Action,Adventure,Sci-Fi",Christopher Nolan,Leonardo DiCaprio,2010,8.8,1583625
+82,Captain Fantastic,"Comedy,Drama",Matt Ross,Viggo Mortensen,2016,7.9,105081
+83,The Wolf of Wall Street,"Biography,Comedy,Crime",Martin Scorsese,Leonardo DiCaprio,2013,8.2,865134
+84,Gone Girl,"Crime,Drama,Mystery",David Fincher,Ben Affleck,2014,8.1,636243
+85,Furious Seven,"Action,Crime,Thriller",James Wan,Vin Diesel,2015,7.2,301249
+86,Jurassic World,"Action,Adventure,Sci-Fi",Colin Trevorrow,Chris Pratt,2015,7,455169
+87,Live by Night,"Crime,Drama",Ben Affleck,Ben Affleck,2016,6.4,27869
+88,Avatar,"Action,Adventure,Fantasy",James Cameron,Sam Worthington,2009,7.8,935408
+89,The Hateful Eight,"Crime,Drama,Mystery",Quentin Tarantino,Samuel L. Jackson,2015,7.8,341170
+90,The Accountant,"Action,Crime,Drama",Gavin O'Connor,Ben Affleck,2016,7.4,162122
+91,Prisoners,"Crime,Drama,Mystery",Denis Villeneuve,Hugh Jackman,2013,8.1,431185
+92,Warcraft,"Action,Adventure,Fantasy",Duncan Jones,Travis Fimmel,2016,7,187547
+93,The Help,Drama,Tate Taylor,Emma Stone,2011,8.1,342429
+94,War Dogs,"Comedy,Crime,Drama",Todd Phillips,Jonah Hill,2016,7.1,106463
+95,Avengers: Age of Ultron,"Action,Adventure,Sci-Fi",Joss Whedon,Robert Downey Jr.,2015,7.4,516895
+96,The Nice Guys,"Action,Comedy,Crime",Shane Black,Russell Crowe,2016,7.4,175067
+97,Kimi no na wa,"Animation,Drama,Fantasy",Makoto Shinkai,Ryûnosuke Kamiki,2016,8.6,34110
+98,The Void,"Horror,Mystery,Sci-Fi",Jeremy Gillespie,Aaron Poole,2016,5.8,9247
+99,Personal Shopper,"Drama,Mystery,Thriller",Olivier Assayas,Kristen Stewart,2016,6.3,10181
+100,The Departed,"Crime,Drama,Thriller",Martin Scorsese,Leonardo DiCaprio,2006,8.5,937414
+101,Legend,"Biography,Crime,Drama",Brian Helgeland,Tom Hardy,2015,7,108836
+102,Thor,"Action,Adventure,Fantasy",Kenneth Branagh,Chris Hemsworth,2011,7,570814
+103,The Martian,"Adventure,Drama,Sci-Fi",Ridley Scott,Matt Damon,2015,8,556097
+104,Contratiempo,"Crime,Mystery,Thriller",Oriol Paulo,Mario Casas,2016,7.9,7204
+105,The Man from U.N.C.L.E.,"Action,Adventure,Comedy",Guy Ritchie,Henry Cavill,2015,7.3,202973
+106,Hell or High Water,"Crime,Drama,Thriller",David Mackenzie,Chris Pine,2016,7.7,115546
+107,The Comedian,Comedy,Taylor Hackford,Robert De Niro,2016,5.4,1954
+108,The Legend of Tarzan,"Action,Adventure,Drama",David Yates,Alexander Skarsgård,2016,6.3,117590
+109,All We Had,Drama,Katie Holmes,Eve Lindley,2016,5.8,1004
+110,Ex Machina,"Drama,Mystery,Sci-Fi",Alex Garland,Alicia Vikander,2014,7.7,339797
+111,The Belko Experiment,"Action,Horror,Thriller",Greg McLean,John Gallagher Jr.,2016,6.3,3712
+112,12 Years a Slave,"Biography,Drama,History",Steve McQueen,Chiwetel Ejiofor,2013,8.1,486338
+113,The Bad Batch,"Romance,Sci-Fi",Ana Lily Amirpour,Keanu Reeves,2016,6.1,512
+114,300,"Action,Fantasy,War",Zack Snyder,Gerard Butler,2006,7.7,637104
+115,Harry Potter and the Deathly Hallows: Part 2,"Adventure,Drama,Fantasy",David Yates,Daniel Radcliffe,2011,8.1,590595
+116,Office Christmas Party,Comedy,Josh Gordon,Jason Bateman,2016,5.8,30761
+117,The Neon Demon,"Horror,Thriller",Nicolas Winding Refn,Elle Fanning,2016,6.2,50359
+118,Dangal,"Action,Biography,Drama",Nitesh Tiwari,Aamir Khan,2016,8.8,48969
+119,10 Cloverfield Lane,"Drama,Horror,Mystery",Dan Trachtenberg,John Goodman,2016,7.2,192968
+120,Finding Dory,"Animation,Adventure,Comedy",Andrew Stanton,Ellen DeGeneres,2016,7.4,157026
+121,Miss Peregrine's Home for Peculiar Children,"Adventure,Drama,Family",Tim Burton,Eva Green,2016,6.7,101058
+122,Divergent,"Adventure,Mystery,Sci-Fi",Neil Burger,Shailene Woodley,2014,6.7,362093
+123,Mike and Dave Need Wedding Dates,"Adventure,Comedy,Romance",Jake Szymanski,Zac Efron,2016,6,53183
+124,Boyka: Undisputed IV,Action,Todor Chapkanov,Scott Adkins,2016,7.4,10428
+125,The Dark Knight Rises,"Action,Thriller",Christopher Nolan,Christian Bale,2012,8.5,1222645
+126,The Jungle Book,"Adventure,Drama,Family",Jon Favreau,Neel Sethi,2016,7.5,198243
+127,Transformers: Age of Extinction,"Action,Adventure,Sci-Fi",Michael Bay,Mark Wahlberg,2014,5.7,255483
+128,Nerve,"Adventure,Crime,Mystery",Henry Joost,Emma Roberts,2016,6.6,69651
+129,Mamma Mia!,"Comedy,Family,Musical",Phyllida Lloyd,Meryl Streep,2008,6.4,153481
+130,The Revenant,"Adventure,Drama,Thriller",Alejandro González Iñárritu,Leonardo DiCaprio,2015,8,499424
+131,Fences,Drama,Denzel Washington,Denzel Washington,2016,7.3,50953
+132,Into the Woods,"Adventure,Comedy,Drama",Rob Marshall,Anna Kendrick,2014,6,109756
+133,The Shallows,"Drama,Horror,Thriller",Jaume Collet-Serra,Blake Lively,2016,6.4,78328
+134,Whiplash,"Drama,Music",Damien Chazelle,Miles Teller,2014,8.5,477276
+135,Furious 6,"Action,Crime,Thriller",Justin Lin,Vin Diesel,2013,7.1,318051
+136,The Place Beyond the Pines,"Crime,Drama,Thriller",Derek Cianfrance,Ryan Gosling,2012,7.3,200090
+137,No Country for Old Men,"Crime,Drama,Thriller",Ethan Coen,Tommy Lee Jones,2007,8.1,660286
+138,The Great Gatsby,"Drama,Romance",Baz Luhrmann,Leonardo DiCaprio,2013,7.3,386102
+139,Shutter Island,"Mystery,Thriller",Martin Scorsese,Leonardo DiCaprio,2010,8.1,855604
+140,Brimstone,"Mystery,Thriller,Western",Martin Koolhoven,Dakota Fanning,2016,7.1,13004
+141,Star Trek,"Action,Adventure,Sci-Fi",J.J. Abrams,Chris Pine,2009,8,526324
+142,Diary of a Wimpy Kid,"Comedy,Family",Thor Freudenthal,Zachary Gordon,2010,6.2,34184
+143,The Big Short,"Biography,Comedy,Drama",Adam McKay,Christian Bale,2015,7.8,246360
+144,Room,Drama,Lenny Abrahamson,Brie Larson,2015,8.2,224132
+145,Django Unchained,"Drama,Western",Quentin Tarantino,Jamie Foxx,2012,8.4,1039115
+146,Ah-ga-ssi,"Drama,Mystery,Romance",Chan-wook Park,Min-hee Kim,2016,8.1,33418
+147,The Edge of Seventeen,"Comedy,Drama",Kelly Fremon Craig,Hailee Steinfeld,2016,7.4,47694
+148,Watchmen,"Action,Drama,Mystery",Zack Snyder,Jackie Earle Haley,2009,7.6,410249
+149,Superbad,Comedy,Greg Mottola,Michael Cera,2007,7.6,442082
+150,Inferno,"Action,Adventure,Crime",Ron Howard,Tom Hanks,2016,6.2,97623
+151,The BFG,"Adventure,Family,Fantasy",Steven Spielberg,Mark Rylance,2016,6.4,50853
+152,The Hunger Games,"Adventure,Sci-Fi,Thriller",Gary Ross,Jennifer Lawrence,2012,7.2,735604
+153,White Girl,Drama,Elizabeth Wood,Morgan Saylor,2016,5.8,4299
+154,Sicario,"Action,Crime,Drama",Denis Villeneuve,Emily Blunt,2015,7.6,243230
+155,Twin Peaks: The Missing Pieces,"Drama,Horror,Mystery",David Lynch,Chris Isaak,2014,8.1,1973
+156,Aliens vs Predator - Requiem,"Action,Horror,Sci-Fi",Colin Strause,Reiko Aylesworth,2007,4.7,97618
+157,Pacific Rim,"Action,Adventure,Sci-Fi",Guillermo del Toro,Idris Elba,2013,7,400519
+158,"Crazy, Stupid, Love.","Comedy,Drama,Romance",Glenn Ficarra,Steve Carell,2011,7.4,396714
+159,Scott Pilgrim vs. the World,"Action,Comedy,Fantasy",Edgar Wright,Michael Cera,2010,7.5,291457
+160,Hot Fuzz,"Action,Comedy,Mystery",Edgar Wright,Simon Pegg,2007,7.9,373244
+161,Mine,"Thriller,War",Fabio Guaglione,Armie Hammer,2016,6,5926
+162,Free Fire,"Action,Comedy,Crime",Ben Wheatley,Sharlto Copley,2016,7,6946
+163,X-Men: Days of Future Past,"Action,Adventure,Sci-Fi",Bryan Singer,Patrick Stewart,2014,8,552298
+164,Jack Reacher: Never Go Back,"Action,Adventure,Crime",Edward Zwick,Tom Cruise,2016,6.1,78043
+165,Casino Royale,"Action,Adventure,Thriller",Martin Campbell,Daniel Craig,2006,8,495106
+166,Twilight,"Drama,Fantasy,Romance",Catherine Hardwicke,Kristen Stewart,2008,5.2,361449
+167,Now You See Me 2,"Action,Adventure,Comedy",Jon M. Chu,Jesse Eisenberg,2016,6.5,156567
+168,Woman in Gold,"Biography,Drama,History",Simon Curtis,Helen Mirren,2015,7.3,39723
+169,13 Hours,"Action,Drama,History",Michael Bay,John Krasinski,2016,7.3,76935
+170,Spectre,"Action,Adventure,Thriller",Sam Mendes,Daniel Craig,2015,6.8,308981
+171,Nightcrawler,"Crime,Drama,Thriller",Dan Gilroy,Jake Gyllenhaal,2014,7.9,332476
+172,Kubo and the Two Strings,"Animation,Adventure,Family",Travis Knight,Charlize Theron,2016,7.9,72778
+173,Beyond the Gates,"Adventure,Horror",Jackson Stewart,Graham Skipper,2016,5.2,2127
+174,Her,"Drama,Romance,Sci-Fi",Spike Jonze,Joaquin Phoenix,2013,8,390531
+175,Frozen,"Animation,Adventure,Comedy",Chris Buck,Kristen Bell,2013,7.5,451894
+176,Tomorrowland,"Action,Adventure,Family",Brad Bird,George Clooney,2015,6.5,143069
+177,Dawn of the Planet of the Apes,"Action,Adventure,Drama",Matt Reeves,Gary Oldman,2014,7.6,337777
+178,Tropic Thunder,"Action,Comedy",Ben Stiller,Ben Stiller,2008,7,321442
+179,The Conjuring 2,"Horror,Mystery,Thriller",James Wan,Vera Farmiga,2016,7.4,137203
+180,Ant-Man,"Action,Adventure,Comedy",Peyton Reed,Paul Rudd,2015,7.3,368912
+181,Bridget Jones's Baby,"Comedy,Romance",Sharon Maguire,Renée Zellweger,2016,6.7,43086
+182,The VVitch: A New-England Folktale,"Horror,Mystery",Robert Eggers,Anya Taylor-Joy,2015,6.8,101781
+183,Cinderella,"Drama,Family,Fantasy",Kenneth Branagh,Lily James,2015,7,117018
+184,Realive,Sci-Fi,Mateo Gil,Tom Hughes,2016,5.9,1176
+185,Forushande,"Drama,Thriller",Asghar Farhadi,Taraneh Alidoosti,2016,8,22389
+186,Love,"Drama,Romance",Gaspar Noé,Aomi Muyock,2015,6,24003
+187,Billy Lynn's Long Halftime Walk,"Drama,War",Ang Lee,Joe Alwyn,2016,6.3,11944
+188,Crimson Peak,"Drama,Fantasy,Horror",Guillermo del Toro,Mia Wasikowska,2015,6.6,97454
+189,Drive,"Crime,Drama",Nicolas Winding Refn,Ryan Gosling,2011,7.8,461509
+190,Trainwreck,"Comedy,Drama,Romance",Judd Apatow,Amy Schumer,2015,6.3,106364
+191,The Light Between Oceans,"Drama,Romance",Derek Cianfrance,Michael Fassbender,2016,7.2,27382
+192,Below Her Mouth,Drama,April Mullen,Erika Linder,2016,5.6,1445
+193,Spotlight,"Crime,Drama,History",Tom McCarthy,Mark Ruffalo,2015,8.1,268282
+194,Morgan,"Horror,Sci-Fi,Thriller",Luke Scott,Kate Mara,2016,5.8,22107
+195,Warrior,"Action,Drama,Sport",Gavin O'Connor,Tom Hardy,2011,8.2,355722
+196,Captain America: The First Avenger,"Action,Adventure,Sci-Fi",Joe Johnston,Chris Evans,2011,6.9,547368
+197,Hacker,"Crime,Drama,Thriller",Akan Satayev,Callan McAuliffe,2016,6.3,3799
+198,Into the Wild,"Adventure,Biography,Drama",Sean Penn,Emile Hirsch,2007,8.1,459304
+199,The Imitation Game,"Biography,Drama,Thriller",Morten Tyldum,Benedict Cumberbatch,2014,8.1,532353
+200,Central Intelligence,"Action,Comedy,Crime",Rawson Marshall Thurber,Dwayne Johnson,2016,6.3,97082
+201,Edge of Tomorrow,"Action,Adventure,Sci-Fi",Doug Liman,Tom Cruise,2014,7.9,471815
+202,A Cure for Wellness,"Drama,Fantasy,Horror",Gore Verbinski,Dane DeHaan,2016,6.5,12193
+203,Snowden,"Biography,Drama,Thriller",Oliver Stone,Joseph Gordon-Levitt,2016,7.3,79855
+204,Iron Man,"Action,Adventure,Sci-Fi",Jon Favreau,Robert Downey Jr.,2008,7.9,737719
+205,Allegiant,"Action,Adventure,Mystery",Robert Schwentke,Shailene Woodley,2016,5.7,70504
+206,X: First Class,"Action,Adventure,Sci-Fi",Matthew Vaughn,James McAvoy,2011,7.8,550011
+207,Raw (II),"Drama,Horror",Julia Ducournau,Garance Marillier,2016,7.5,5435
+208,Paterson,"Comedy,Drama,Romance",Jim Jarmusch,Adam Driver,2016,7.5,26089
+209,Bridesmaids,"Comedy,Romance",Paul Feig,Kristen Wiig,2011,6.8,227912
+210,The Girl with All the Gifts,"Drama,Horror,Thriller",Colm McCarthy,Gemma Arterton,2016,6.7,23713
+211,San Andreas,"Action,Adventure,Drama",Brad Peyton,Dwayne Johnson,2015,6.1,161396
+212,Spring Breakers,Drama,Harmony Korine,Vanessa Hudgens,2012,5.3,114290
+213,Transformers,"Action,Adventure,Sci-Fi",Michael Bay,Shia LaBeouf,2007,7.1,531112
+214,Old Boy,"Action,Drama,Mystery",Spike Lee,Josh Brolin,2013,5.8,54679
+215,Thor: The Dark World,"Action,Adventure,Fantasy",Alan Taylor,Chris Hemsworth,2013,7,443584
+216,Gods of Egypt,"Action,Adventure,Fantasy",Alex Proyas,Brenton Thwaites,2016,5.5,73568
+217,Captain America: The Winter Soldier,"Action,Adventure,Sci-Fi",Anthony Russo,Chris Evans,2014,7.8,542362
+218,Monster Trucks,"Action,Adventure,Comedy",Chris Wedge,Lucas Till,2016,5.7,7044
+219,A Dark Song,"Drama,Horror",Liam Gavin,Mark Huberman,2016,6.1,1703
+220,Kick-Ass,"Action,Comedy",Matthew Vaughn,Aaron Taylor-Johnson,2010,7.7,456749
+221,Hardcore Henry,"Action,Adventure,Sci-Fi",Ilya Naishuller,Sharlto Copley,2015,6.7,61098
+222,Cars,"Animation,Adventure,Comedy",John Lasseter,Owen Wilson,2006,7.1,283445
+223,It Follows,"Horror,Mystery",David Robert Mitchell,Maika Monroe,2014,6.9,136399
+224,The Girl with the Dragon Tattoo,"Crime,Drama,Mystery",David Fincher,Daniel Craig,2011,7.8,348551
+225,We're the Millers,"Comedy,Crime",Rawson Marshall Thurber,Jason Sudeikis,2013,7,334867
+226,American Honey,Drama,Andrea Arnold,Sasha Lane,2016,7,19660
+227,The Lobster,"Comedy,Drama,Romance",Yorgos Lanthimos,Colin Farrell,2015,7.1,121313
+228,Predators,"Action,Adventure,Sci-Fi",Nimród Antal,Adrien Brody,2010,6.4,179450
+229,Maleficent,"Action,Adventure,Family",Robert Stromberg,Angelina Jolie,2014,7,268877
+230,Rupture,"Horror,Sci-Fi,Thriller",Steven Shainberg,Noomi Rapace,2016,4.8,2382
+231,Pan's Labyrinth,"Drama,Fantasy,War",Guillermo del Toro,Ivana Baquero,2006,8.2,498879
+232,A Kind of Murder,"Crime,Drama,Thriller",Andy Goddard,Patrick Wilson,2016,5.2,3305
+233,Apocalypto,"Action,Adventure,Drama",Mel Gibson,Gerardo Taracena,2006,7.8,247926
+234,Mission: Impossible - Rogue Nation,"Action,Adventure,Thriller",Christopher McQuarrie,Tom Cruise,2015,7.4,257472
+235,The Huntsman: Winter's War,"Action,Adventure,Drama",Cedric Nicolas-Troyan,Chris Hemsworth,2016,6.1,66766
+236,The Perks of Being a Wallflower,"Drama,Romance",Stephen Chbosky,Logan Lerman,2012,8,377336
+237,Jackie,"Biography,Drama,History",Pablo Larraín,Natalie Portman,2016,6.8,41446
+238,The Disappointments Room,"Drama,Horror,Thriller",D.J. Caruso,Kate Beckinsale,2016,3.9,4895
+239,The Grand Budapest Hotel,"Adventure,Comedy,Drama",Wes Anderson,Ralph Fiennes,2014,8.1,530881
+240,The Host,"Action,Adventure,Romance",Andrew Niccol,Saoirse Ronan,2013,5.9,96852
+241,Fury,"Action,Drama,War",David Ayer,Brad Pitt,2014,7.6,332234
+242,Inside Out,"Animation,Adventure,Comedy",Pete Docter,Amy Poehler,2015,8.2,416689
+243,Rock Dog,"Animation,Adventure,Comedy",Ash Brannon,Luke Wilson,2016,5.8,1109
+244,Terminator Genisys,"Action,Adventure,Sci-Fi",Alan Taylor,Arnold Schwarzenegger,2015,6.5,205365
+245,Percy Jackson & the Olympians: The Lightning Thief,"Adventure,Family,Fantasy",Chris Columbus,Logan Lerman,2010,5.9,148949
+246,Les Misérables,"Drama,Musical,Romance",Tom Hooper,Hugh Jackman,2012,7.6,257426
+247,Children of Men,"Drama,Sci-Fi,Thriller",Alfonso Cuarón,Julianne Moore,2006,7.9,382910
+248,20th Century Women,"Comedy,Drama",Mike Mills,Annette Bening,2016,7.4,14708
+249,Spy,"Action,Comedy,Crime",Paul Feig,Melissa McCarthy,2015,7.1,188017
+250,The Intouchables,"Biography,Comedy,Drama",Olivier Nakache,François Cluzet,2011,8.6,557965
+251,Bonjour Anne,"Comedy,Drama,Romance",Eleanor Coppola,Diane Lane,2016,4.9,178
+252,Kynodontas,"Drama,Thriller",Yorgos Lanthimos,Christos Stergioglou,2009,7.3,50946
+253,Straight Outta Compton,"Biography,Drama,History",F. Gary Gray,O'Shea Jackson Jr.,2015,7.9,139831
+254,The Amazing Spider-Man 2,"Action,Adventure,Sci-Fi",Marc Webb,Andrew Garfield,2014,6.7,342183
+255,The Conjuring,"Horror,Mystery,Thriller",James Wan,Patrick Wilson,2013,7.5,330305
+256,The Hangover,Comedy,Todd Phillips,Zach Galifianakis,2009,7.8,611563
+257,Battleship,"Action,Adventure,Sci-Fi",Peter Berg,Alexander Skarsgård,2012,5.8,210349
+258,Rise of the Planet of the Apes,"Action,Drama,Sci-Fi",Rupert Wyatt,James Franco,2011,7.6,422290
+259,Lights Out,Horror,David F. Sandberg,Teresa Palmer,2016,6.4,69823
+260,Norman: The Moderate Rise and Tragic Fall of a New York Fixer,"Drama,Thriller",Joseph Cedar,Richard Gere,2016,7.1,664
+261,Birdman or (The Unexpected Virtue of Ignorance),"Comedy,Drama,Romance",Alejandro González Iñárritu,Michael Keaton,2014,7.8,440299
+262,Black Swan,"Drama,Thriller",Darren Aronofsky,Natalie Portman,2010,8,581518
+263,Dear White People,"Comedy,Drama",Justin Simien,Tyler James Williams,2014,6.2,21715
+264,Nymphomaniac: Vol. I,Drama,Lars von Trier,Charlotte Gainsbourg,2013,7,90556
+265,Teenage Mutant Ninja Turtles: Out of the Shadows,"Action,Adventure,Comedy",Dave Green,Megan Fox,2016,6,59312
+266,Knock Knock,"Drama,Horror,Thriller",Eli Roth,Keanu Reeves,2015,4.9,53441
+267,Dirty Grandpa,Comedy,Dan Mazer,Robert De Niro,2016,6,75137
+268,Cloud Atlas,"Drama,Sci-Fi",Tom Tykwer,Tom Hanks,2012,7.5,298651
+269,X-Men Origins: Wolverine,"Action,Adventure,Sci-Fi",Gavin Hood,Hugh Jackman,2009,6.7,388447
+270,Satanic,Horror,Jeffrey G. Hunt,Sarah Hyland,2016,3.7,2384
+271,Skyfall,"Action,Adventure,Thriller",Sam Mendes,Daniel Craig,2012,7.8,547386
+272,The Hobbit: An Unexpected Journey,"Adventure,Fantasy",Peter Jackson,Martin Freeman,2012,7.9,668651
+273,21 Jump Street,"Action,Comedy,Crime",Phil Lord,Jonah Hill,2012,7.2,432046
+274,Sing Street,"Comedy,Drama,Music",John Carney,Ferdia Walsh-Peelo,2016,8,52144
+275,Ballerina,"Animation,Adventure,Comedy",Eric Summer,Elle Fanning,2016,6.8,4729
+276,Oblivion,"Action,Adventure,Mystery",Joseph Kosinski,Tom Cruise,2013,7,410125
+277,22 Jump Street,"Action,Comedy,Crime",Phil Lord,Channing Tatum,2014,7.1,280110
+278,Zodiac,"Crime,Drama,History",David Fincher,Jake Gyllenhaal,2007,7.7,329683
+279,Everybody Wants Some!!,Comedy,Richard Linklater,Blake Jenner,2016,7,36312
+280,Iron Man Three,"Action,Adventure,Sci-Fi",Shane Black,Robert Downey Jr.,2013,7.2,591023
+281,Now You See Me,"Crime,Mystery,Thriller",Louis Leterrier,Jesse Eisenberg,2013,7.3,492324
+282,Sherlock Holmes,"Action,Adventure,Crime",Guy Ritchie,Robert Downey Jr.,2009,7.6,501769
+283,Death Proof,Thriller,Quentin Tarantino,Kurt Russell,2007,7.1,220236
+284,The Danish Girl,"Biography,Drama,Romance",Tom Hooper,Eddie Redmayne,2015,7,110773
+285,Hercules,"Action,Adventure",Brett Ratner,Dwayne Johnson,2014,6,122838
+286,Sucker Punch,"Action,Fantasy",Zack Snyder,Emily Browning,2011,6.1,204874
+287,Keeping Up with the Joneses,"Action,Comedy",Greg Mottola,Zach Galifianakis,2016,5.8,30405
+288,Jupiter Ascending,"Action,Adventure,Sci-Fi",Lana Wachowski,Channing Tatum,2015,5.3,150121
+289,Masterminds,"Action,Comedy,Crime",Jared Hess,Zach Galifianakis,2016,5.8,26508
+290,Iris,Thriller,Jalil Lespert,Romain Duris,2016,6.1,726
+291,Busanhaeng,"Action,Drama,Horror",Sang-ho Yeon,Yoo Gong,2016,7.5,58782
+292,Pitch Perfect,"Comedy,Music,Romance",Jason Moore,Anna Kendrick,2012,7.2,226631
+293,Neighbors 2: Sorority Rising,Comedy,Nicholas Stoller,Seth Rogen,2016,5.7,76327
+294,The Exception,Drama,David Leveaux,Lily James,2016,7.7,96
+295,Man of Steel,"Action,Adventure,Fantasy",Zack Snyder,Henry Cavill,2013,7.1,577010
+296,The Choice,"Drama,Romance",Ross Katz,Benjamin Walker,2016,6.6,20514
+297,Ice Age: Collision Course,"Animation,Adventure,Comedy",Mike Thurmeier,Ray Romano,2016,5.7,34523
+298,The Devil Wears Prada,"Comedy,Drama",David Frankel,Anne Hathaway,2006,6.8,302268
+299,The Infiltrator,"Biography,Crime,Drama",Brad Furman,Bryan Cranston,2016,7.1,43929
+300,There Will Be Blood,"Drama,History",Paul Thomas Anderson,Daniel Day-Lewis,2007,8.1,400682
+301,The Equalizer,"Action,Crime,Thriller",Antoine Fuqua,Denzel Washington,2014,7.2,249425
+302,Lone Survivor,"Action,Biography,Drama",Peter Berg,Mark Wahlberg,2013,7.5,218996
+303,The Cabin in the Woods,Horror,Drew Goddard,Kristen Connolly,2012,7,295554
+304,The House Bunny,"Comedy,Romance",Fred Wolf,Anna Faris,2008,5.5,67033
+305,She's Out of My League,"Comedy,Romance",Jim Field Smith,Jay Baruchel,2010,6.4,105619
+306,Inherent Vice,"Comedy,Crime,Drama",Paul Thomas Anderson,Joaquin Phoenix,2014,6.7,69509
+307,Alice Through the Looking Glass,"Adventure,Family,Fantasy",James Bobin,Mia Wasikowska,2016,6.2,57207
+308,Vincent N Roxxy,"Crime,Drama,Thriller",Gary Michael Schultz,Emile Hirsch,2016,5.5,403
+309,The Fast and the Furious: Tokyo Drift,"Action,Crime,Thriller",Justin Lin,Lucas Black,2006,6,193479
+310,How to Be Single,"Comedy,Romance",Christian Ditter,Dakota Johnson,2016,6.1,59886
+311,The Blind Side,"Biography,Drama,Sport",John Lee Hancock,Quinton Aaron,2009,7.7,237221
+312,La vie d'Adèle,"Drama,Romance",Abdellatif Kechiche,Léa Seydoux,2013,7.8,103150
+313,The Babadook,"Drama,Horror",Jennifer Kent,Essie Davis,2014,6.8,132580
+314,The Hobbit: The Battle of the Five Armies,"Adventure,Fantasy",Peter Jackson,Ian McKellen,2014,7.4,385598
+315,Harry Potter and the Order of the Phoenix,"Adventure,Family,Fantasy",David Yates,Daniel Radcliffe,2007,7.5,385325
+316,Snowpiercer,"Action,Drama,Sci-Fi",Bong Joon Ho,Chris Evans,2013,7,199048
+317,The 5th Wave,"Action,Adventure,Sci-Fi",J Blakeson,Chloë Grace Moretz,2016,5.2,73093
+318,The Stakelander,"Action,Horror",Dan Berk,Connor Paolo,2016,5.3,1263
+319,The Visit,"Comedy,Horror,Thriller",M. Night Shyamalan,Olivia DeJonge,2015,6.2,81429
+320,Fast Five,"Action,Crime,Thriller",Justin Lin,Vin Diesel,2011,7.3,300803
+321,Step Up,"Crime,Drama,Music",Anne Fletcher,Channing Tatum,2006,6.5,95960
+322,Lovesong,Drama,So Yong Kim,Riley Keough,2016,6.4,616
+323,RocknRolla,"Action,Crime,Thriller",Guy Ritchie,Gerard Butler,2008,7.3,203096
+324,In Time,"Action,Sci-Fi,Thriller",Andrew Niccol,Justin Timberlake,2011,6.7,319025
+325,The Social Network,"Biography,Drama",David Fincher,Jesse Eisenberg,2010,7.7,510100
+326,The Last Witch Hunter,"Action,Adventure,Fantasy",Breck Eisner,Vin Diesel,2015,6,71149
+327,Victor Frankenstein,"Drama,Horror,Sci-Fi",Paul McGuigan,Daniel Radcliffe,2015,6,37975
+328,A Street Cat Named Bob,"Biography,Comedy,Drama",Roger Spottiswoode,Luke Treadaway,2016,7.4,12643
+329,Green Room,"Crime,Horror,Thriller",Jeremy Saulnier,Anton Yelchin,2015,7,62885
+330,Blackhat,"Crime,Drama,Mystery",Michael Mann,Chris Hemsworth,2015,5.4,43085
+331,Storks,"Animation,Adventure,Comedy",Nicholas Stoller,Andy Samberg,2016,6.9,34248
+332,American Sniper,"Action,Biography,Drama",Clint Eastwood,Bradley Cooper,2014,7.3,353305
+333,Dallas Buyers Club,"Biography,Drama",Jean-Marc Vallée,Matthew McConaughey,2013,8,352801
+334,Lincoln,"Biography,Drama,History",Steven Spielberg,Daniel Day-Lewis,2012,7.4,207497
+335,Rush,"Action,Biography,Drama",Ron Howard,Daniel Brühl,2013,8.1,339722
+336,Before I Wake,"Drama,Fantasy,Horror",Mike Flanagan,Kate Bosworth,2016,6.1,18201
+337,Silver Linings Playbook,"Comedy,Drama,Romance",David O. Russell,Bradley Cooper,2012,7.8,564364
+338,Tracktown,"Drama,Sport",Alexi Pappas,Alexi Pappas,2016,5.9,115
+339,The Fault in Our Stars,"Drama,Romance",Josh Boone,Shailene Woodley,2014,7.8,271301
+340,Blended,"Comedy,Romance",Frank Coraci,Adam Sandler,2014,6.5,93764
+341,Fast & Furious,"Action,Crime,Thriller",Justin Lin,Vin Diesel,2009,6.6,217464
+342,Looper,"Action,Crime,Drama",Rian Johnson,Joseph Gordon-Levitt,2012,7.4,452369
+343,White House Down,"Action,Drama,Thriller",Roland Emmerich,Channing Tatum,2013,6.4,173320
+344,Pete's Dragon,"Adventure,Family,Fantasy",David Lowery,Bryce Dallas Howard,2016,6.8,36322
+345,Spider-Man 3,"Action,Adventure",Sam Raimi,Tobey Maguire,2007,6.2,406219
+346,The Three Musketeers,"Action,Adventure,Romance",Paul W.S. Anderson,Logan Lerman,2011,5.8,92329
+347,Stardust,"Adventure,Family,Fantasy",Matthew Vaughn,Charlie Cox,2007,7.7,220664
+348,American Hustle,"Crime,Drama",David O. Russell,Christian Bale,2013,7.3,379088
+349,Jennifer's Body,"Comedy,Horror",Karyn Kusama,Megan Fox,2009,5.1,96617
+350,Midnight in Paris,"Comedy,Fantasy,Romance",Woody Allen,Owen Wilson,2011,7.7,320323
+351,Lady Macbeth,Drama,William Oldroyd,Florence Pugh,2016,7.3,1396
+352,Joy,Drama,David O. Russell,Jennifer Lawrence,2015,6.6,97679
+353,The Dressmaker,"Comedy,Drama",Jocelyn Moorhouse,Kate Winslet,2015,7.1,33352
+354,Café Society,"Comedy,Drama,Romance",Woody Allen,Jesse Eisenberg,2016,6.7,45579
+355,Insurgent,"Adventure,Sci-Fi,Thriller",Robert Schwentke,Shailene Woodley,2015,6.3,171970
+356,Seventh Son,"Action,Adventure,Fantasy",Sergei Bodrov,Ben Barnes,2014,5.5,59958
+357,Demain tout commence,"Comedy,Drama",Hugo Gélin,Omar Sy,2016,7.4,5496
+358,The Theory of Everything,"Biography,Drama,Romance",James Marsh,Eddie Redmayne,2014,7.7,299718
+359,This Is the End,"Comedy,Fantasy",Evan Goldberg,James Franco,2013,6.6,327838
+360,About Time,"Comedy,Drama,Fantasy",Richard Curtis,Domhnall Gleeson,2013,7.8,221600
+361,Step Brothers,Comedy,Adam McKay,Will Ferrell,2008,6.9,223065
+362,Clown,"Horror,Thriller",Jon Watts,Andy Powers,2014,5.7,14248
+363,Star Trek Into Darkness,"Action,Adventure,Sci-Fi",J.J. Abrams,Chris Pine,2013,7.8,417663
+364,Zombieland,"Adventure,Comedy,Horror",Ruben Fleischer,Jesse Eisenberg,2009,7.7,409403
+365,"Hail, Caesar!","Comedy,Mystery",Ethan Coen,Josh Brolin,2016,6.3,89059
+366,Slumdog Millionaire,Drama,Danny Boyle,Dev Patel,2008,8,677044
+367,The Twilight Saga: Breaking Dawn - Part 2,"Adventure,Drama,Fantasy",Bill Condon,Kristen Stewart,2012,5.5,194329
+368,American Wrestler: The Wizard,"Drama,Sport",Alex Ranarivelo,William Fichtner,2016,6.9,286
+369,The Amazing Spider-Man,"Action,Adventure",Marc Webb,Andrew Garfield,2012,7,474320
+370,Ben-Hur,"Action,Adventure,Drama",Timur Bekmambetov,Jack Huston,2016,5.7,28326
+371,Sleight,"Action,Drama,Sci-Fi",J.D. Dillard,Jacob Latimore,2016,6,702
+372,The Maze Runner,"Action,Mystery,Sci-Fi",Wes Ball,Dylan O'Brien,2014,6.8,335531
+373,Criminal,"Action,Crime,Drama",Ariel Vromen,Kevin Costner,2016,6.3,38430
+374,Wanted,"Action,Crime,Fantasy",Timur Bekmambetov,Angelina Jolie,2008,6.7,312495
+375,Florence Foster Jenkins,"Biography,Comedy,Drama",Stephen Frears,Meryl Streep,2016,6.9,31776
+376,Collide,"Action,Crime,Thriller",Eran Creevy,Nicholas Hoult,2016,5.7,7583
+377,Black Mass,"Biography,Crime,Drama",Scott Cooper,Johnny Depp,2015,6.9,135706
+378,Creed,"Drama,Sport",Ryan Coogler,Michael B. Jordan,2015,7.6,175673
+379,Swiss Army Man,"Adventure,Comedy,Drama",Dan Kwan,Paul Dano,2016,7.1,61812
+380,The Expendables 3,"Action,Adventure,Thriller",Patrick Hughes,Sylvester Stallone,2014,6.1,137568
+381,What We Do in the Shadows,"Comedy,Fantasy,Horror",Jemaine Clement,Jemaine Clement,2014,7.6,84016
+382,Southpaw,"Drama,Sport",Antoine Fuqua,Jake Gyllenhaal,2015,7.4,169083
+383,Hush,"Horror,Thriller",Mike Flanagan,John Gallagher Jr.,2016,6.6,45867
+384,Bridge of Spies,"Drama,History,Thriller",Steven Spielberg,Tom Hanks,2015,7.6,217938
+385,The Lego Movie,"Animation,Action,Adventure",Phil Lord,Chris Pratt,2014,7.8,266508
+386,Everest,"Action,Adventure,Drama",Baltasar Kormákur,Jason Clarke,2015,7.1,154647
+387,Pixels,"Action,Comedy,Family",Chris Columbus,Adam Sandler,2015,5.6,101092
+388,Robin Hood,"Action,Adventure,Drama",Ridley Scott,Russell Crowe,2010,6.7,221117
+389,The Wolverine,"Action,Adventure,Sci-Fi",James Mangold,Hugh Jackman,2013,6.7,355362
+390,John Carter,"Action,Adventure,Sci-Fi",Andrew Stanton,Taylor Kitsch,2012,6.6,220667
+391,Keanu,"Action,Comedy",Peter Atencio,Keegan-Michael Key,2016,6.3,31913
+392,The Gunman,"Action,Crime,Drama",Pierre Morel,Sean Penn,2015,5.8,31194
+393,Steve Jobs,"Biography,Drama",Danny Boyle,Michael Fassbender,2015,7.2,116112
+394,Whisky Galore,"Comedy,Romance",Gillies MacKinnon,Tim Pigott-Smith,2016,5,102
+395,Grown Ups 2,Comedy,Dennis Dugan,Adam Sandler,2013,5.4,114482
+396,The Age of Adaline,"Drama,Fantasy,Romance",Lee Toland Krieger,Blake Lively,2015,7.2,112288
+397,The Incredible Hulk,"Action,Adventure,Sci-Fi",Louis Leterrier,Edward Norton,2008,6.8,342355
+398,Couples Retreat,Comedy,Peter Billingsley,Vince Vaughn,2009,5.5,86417
+399,Absolutely Anything,"Comedy,Sci-Fi",Terry Jones,Simon Pegg,2015,6,26587
+400,Magic Mike,"Comedy,Drama",Steven Soderbergh,Channing Tatum,2012,6.1,113686
+401,Minions,"Animation,Action,Adventure",Kyle Balda,Sandra Bullock,2015,6.4,159830
+402,The Black Room,Horror,Rolfe Kanefsky,Natasha Henstridge,2016,3.9,240
+403,Bronson,"Action,Biography,Crime",Nicolas Winding Refn,Tom Hardy,2008,7.1,93972
+404,Despicable Me,"Animation,Adventure,Comedy",Pierre Coffin,Steve Carell,2010,7.7,410607
+405,The Best of Me,"Drama,Romance",Michael Hoffman,James Marsden,2014,6.7,49041
+406,The Invitation,"Drama,Mystery,Thriller",Karyn Kusama,Logan Marshall-Green,2015,6.7,40529
+407,Zero Dark Thirty,"Drama,History,Thriller",Kathryn Bigelow,Jessica Chastain,2012,7.4,226661
+408,Tangled,"Animation,Adventure,Comedy",Nathan Greno,Mandy Moore,2010,7.8,316459
+409,The Hunger Games: Mockingjay - Part 2,"Action,Adventure,Sci-Fi",Francis Lawrence,Jennifer Lawrence,2015,6.6,202380
+410,Vacation,"Adventure,Comedy",John Francis Daley,Ed Helms,2015,6.1,74589
+411,Taken,"Action,Thriller",Pierre Morel,Liam Neeson,2008,7.8,502961
+412,Pitch Perfect 2,"Comedy,Music",Elizabeth Banks,Anna Kendrick,2015,6.5,108306
+413,Monsters University,"Animation,Adventure,Comedy",Dan Scanlon,Billy Crystal,2013,7.3,252119
+414,Elle,"Crime,Drama,Thriller",Paul Verhoeven,Isabelle Huppert,2016,7.2,35417
+415,Mechanic: Resurrection,"Action,Adventure,Crime",Dennis Gansel,Jason Statham,2016,5.6,48161
+416,Tusk,"Comedy,Drama,Horror",Kevin Smith,Justin Long,2014,5.4,34546
+417,The Headhunter's Calling,Drama,Mark Williams,Alison Brie,2016,6.9,164
+418,Atonement,"Drama,Mystery,Romance",Joe Wright,Keira Knightley,2007,7.8,202890
+419,Harry Potter and the Deathly Hallows: Part 1,"Adventure,Family,Fantasy",David Yates,Daniel Radcliffe,2010,7.7,357213
+420,Shame,Drama,Steve McQueen,Michael Fassbender,2011,7.2,155010
+421,Hanna,"Action,Drama,Thriller",Joe Wright,Saoirse Ronan,2011,6.8,164208
+422,The Babysitters,Drama,David Ross,Lauren Birkell,2007,5.7,8914
+423,Pride and Prejudice and Zombies,"Action,Horror,Romance",Burr Steers,Lily James,2016,5.8,35003
+424,300: Rise of an Empire,"Action,Drama,Fantasy",Noam Murro,Sullivan Stapleton,2014,6.2,237887
+425,London Has Fallen,"Action,Crime,Drama",Babak Najafi,Gerard Butler,2016,5.9,100702
+426,The Curious Case of Benjamin Button,"Drama,Fantasy,Romance",David Fincher,Brad Pitt,2008,7.8,485075
+427,Sin City: A Dame to Kill For,"Action,Crime,Thriller",Frank Miller,Mickey Rourke,2014,6.5,122185
+428,The Bourne Ultimatum,"Action,Mystery,Thriller",Paul Greengrass,Matt Damon,2007,8.1,525700
+429,Srpski film,"Horror,Mystery,Thriller",Srdjan Spasojevic,Srdjan 'Zika' Todorovic,2010,5.2,43648
+430,The Purge: Election Year,"Action,Horror,Sci-Fi",James DeMonaco,Frank Grillo,2016,6,54216
+431,3 Idiots,"Comedy,Drama",Rajkumar Hirani,Aamir Khan,2009,8.4,238789
+432,Zoolander 2,Comedy,Ben Stiller,Ben Stiller,2016,4.7,48297
+433,World War Z,"Action,Adventure,Horror",Marc Forster,Brad Pitt,2013,7,494819
+434,Mission: Impossible - Ghost Protocol,"Action,Adventure,Thriller",Brad Bird,Tom Cruise,2011,7.4,382459
+435,Let Me Make You a Martyr,"Action,Crime,Drama",Corey Asraf,Marilyn Manson,2016,6.4,223
+436,Filth,"Comedy,Crime,Drama",Jon S. Baird,James McAvoy,2013,7.1,81301
+437,The Longest Ride,"Drama,Romance",George Tillman Jr.,Scott Eastwood,2015,7.1,58421
+438,The imposible,"Drama,Thriller",J.A. Bayona,Naomi Watts,2012,7.6,156189
+439,Kick-Ass 2,"Action,Comedy,Crime",Jeff Wadlow,Aaron Taylor-Johnson,2013,6.6,214825
+440,Folk Hero & Funny Guy,Comedy,Jeff Grace,Alex Karpovsky,2016,5.6,220
+441,Oz the Great and Powerful,"Adventure,Family,Fantasy",Sam Raimi,James Franco,2013,6.3,181521
+442,Brooklyn,"Drama,Romance",John Crowley,Saoirse Ronan,2015,7.5,94977
+443,Coraline,"Animation,Family,Fantasy",Henry Selick,Dakota Fanning,2009,7.7,156620
+444,Blue Valentine,"Drama,Romance",Derek Cianfrance,Ryan Gosling,2010,7.4,151409
+445,The Thinning,Thriller,Michael J. Gallagher,Logan Paul,2016,6,4531
+446,Silent Hill,"Adventure,Horror,Mystery",Christophe Gans,Radha Mitchell,2006,6.6,184152
+447,Dredd,"Action,Sci-Fi",Pete Travis,Karl Urban,2012,7.1,213764
+448,Hunt for the Wilderpeople,"Adventure,Comedy,Drama",Taika Waititi,Sam Neill,2016,7.9,52331
+449,Big Hero 6,"Animation,Action,Adventure",Don Hall,Ryan Potter,2014,7.8,309186
+450,Carrie,"Drama,Horror",Kimberly Peirce,Chloë Grace Moretz,2013,5.9,113272
+451,Iron Man 2,"Action,Adventure,Sci-Fi",Jon Favreau,Robert Downey Jr.,2010,7,556666
+452,Demolition,"Comedy,Drama",Jean-Marc Vallée,Jake Gyllenhaal,2015,7,58720
+453,Pandorum,"Action,Horror,Mystery",Christian Alvart,Dennis Quaid,2009,6.8,126656
+454,Olympus Has Fallen,"Action,Thriller",Antoine Fuqua,Gerard Butler,2013,6.5,214994
+455,I Am Number Four,"Action,Adventure,Sci-Fi",D.J. Caruso,Alex Pettyfer,2011,6.1,202682
+456,Jagten,Drama,Thomas Vinterberg,Mads Mikkelsen,2012,8.3,192263
+457,The Proposal,"Comedy,Drama,Romance",Anne Fletcher,Sandra Bullock,2009,6.7,241709
+458,Get Hard,"Comedy,Crime",Etan Cohen,Will Ferrell,2015,6,95119
+459,Just Go with It,"Comedy,Romance",Dennis Dugan,Adam Sandler,2011,6.4,182069
+460,Revolutionary Road,"Drama,Romance",Sam Mendes,Leonardo DiCaprio,2008,7.3,159736
+461,The Town,"Crime,Drama,Thriller",Ben Affleck,Ben Affleck,2010,7.6,294553
+462,The Boy,"Horror,Mystery,Thriller",William Brent Bell,Lauren Cohan,2016,6,51235
+463,Denial,"Biography,Drama",Mick Jackson,Rachel Weisz,2016,6.6,8229
+464,Predestination,"Drama,Mystery,Sci-Fi",Michael Spierig,Ethan Hawke,2014,7.5,187760
+465,Goosebumps,"Adventure,Comedy,Family",Rob Letterman,Jack Black,2015,6.3,57602
+466,Sherlock Holmes: A Game of Shadows,"Action,Adventure,Crime",Guy Ritchie,Robert Downey Jr.,2011,7.5,357436
+467,Salt,"Action,Crime,Mystery",Phillip Noyce,Angelina Jolie,2010,6.4,255813
+468,Enemy,"Mystery,Thriller",Denis Villeneuve,Jake Gyllenhaal,2013,6.9,111558
+469,District 9,"Action,Sci-Fi,Thriller",Neill Blomkamp,Sharlto Copley,2009,8,556794
+470,The Other Guys,"Action,Comedy,Crime",Adam McKay,Will Ferrell,2010,6.7,199900
+471,American Gangster,"Biography,Crime,Drama",Ridley Scott,Denzel Washington,2007,7.8,337835
+472,Marie Antoinette,"Biography,Drama,History",Sofia Coppola,Kirsten Dunst,2006,6.4,83941
+473,2012,"Action,Adventure,Sci-Fi",Roland Emmerich,John Cusack,2009,5.8,297984
+474,Harry Potter and the Half-Blood Prince,"Adventure,Family,Fantasy",David Yates,Daniel Radcliffe,2009,7.5,351059
+475,Argo,"Biography,Drama,History",Ben Affleck,Ben Affleck,2012,7.7,481274
+476,Eddie the Eagle,"Biography,Comedy,Drama",Dexter Fletcher,Taron Egerton,2016,7.4,56332
+477,The Lives of Others,"Drama,Thriller",Florian Henckel von Donnersmarck,Ulrich Mühe,2006,8.5,278103
+478,Pet,"Horror,Thriller",Carles Torrens,Dominic Monaghan,2016,5.7,8404
+479,Paint It Black,Drama,Amber Tamblyn,Alia Shawkat,2016,8.3,61
+480,Macbeth,"Drama,War",Justin Kurzel,Michael Fassbender,2015,6.7,41642
+481,Forgetting Sarah Marshall,"Comedy,Drama,Romance",Nicholas Stoller,Kristen Bell,2008,7.2,226619
+482,The Giver,"Drama,Romance,Sci-Fi",Phillip Noyce,Brenton Thwaites,2014,6.5,93799
+483,Triple 9,"Action,Crime,Drama",John Hillcoat,Casey Affleck,2016,6.3,48400
+484,Perfetti sconosciuti,"Comedy,Drama",Paolo Genovese,Giuseppe Battiston,2016,7.7,17584
+485,Angry Birds,"Animation,Action,Adventure",Clay Kaytis,Jason Sudeikis,2016,6.3,55781
+486,Moonrise Kingdom,"Adventure,Comedy,Drama",Wes Anderson,Jared Gilman,2012,7.8,254446
+487,Hairspray,"Comedy,Drama,Family",Adam Shankman,John Travolta,2007,6.7,102954
+488,Safe Haven,"Drama,Romance,Thriller",Lasse Hallström,Julianne Hough,2013,6.7,84765
+489,Focus,"Comedy,Crime,Drama",Glenn Ficarra,Will Smith,2015,6.6,166489
+490,Ratatouille,"Animation,Comedy,Family",Brad Bird,Brad Garrett,2007,8,504039
+491,Stake Land,"Drama,Horror,Sci-Fi",Jim Mickle,Connor Paolo,2010,6.5,36091
+492,The Book of Eli,"Action,Adventure,Drama",Albert Hughes,Denzel Washington,2010,6.9,241359
+493,Cloverfield,"Action,Horror,Sci-Fi",Matt Reeves,Mike Vogel,2008,7,313803
+494,Point Break,"Action,Crime,Sport",Ericson Core,Edgar Ramírez,2015,5.3,44553
+495,Under the Skin,"Drama,Horror,Sci-Fi",Jonathan Glazer,Scarlett Johansson,2013,6.3,94707
+496,I Am Legend,"Drama,Horror,Sci-Fi",Francis Lawrence,Will Smith,2007,7.2,565721
+497,Men in Black 3,"Action,Adventure,Comedy",Barry Sonnenfeld,Will Smith,2012,6.8,278379
+498,Super 8,"Mystery,Sci-Fi,Thriller",J.J. Abrams,Elle Fanning,2011,7.1,298913
+499,Law Abiding Citizen,"Crime,Drama,Thriller",F. Gary Gray,Gerard Butler,2009,7.4,228339
+500,Up,"Animation,Adventure,Comedy",Pete Docter,Edward Asner,2009,8.3,722203
+501,Maze Runner: The Scorch Trials,"Action,Sci-Fi,Thriller",Wes Ball,Dylan O'Brien,2015,6.3,159364
+502,Carol,"Drama,Romance",Todd Haynes,Cate Blanchett,2015,7.2,77995
+503,Imperium,"Crime,Drama,Thriller",Daniel Ragussis,Daniel Radcliffe,2016,6.5,27428
+504,Youth,"Comedy,Drama,Music",Paolo Sorrentino,Michael Caine,2015,7.3,52636
+505,Mr. Nobody,"Drama,Fantasy,Romance",Jaco Van Dormael,Jared Leto,2009,7.9,166872
+506,City of Tiny Lights,"Crime,Drama,Thriller",Pete Travis,Riz Ahmed,2016,5.7,291
+507,Savages,"Crime,Drama,Thriller",Oliver Stone,Aaron Taylor-Johnson,2012,6.5,107960
+508,(500) Days of Summer,"Comedy,Drama,Romance",Marc Webb,Zooey Deschanel,2009,7.7,398972
+509,Movie 43,"Comedy,Romance",Elizabeth Banks,Emma Stone,2013,4.3,83625
+510,Gravity,"Drama,Sci-Fi,Thriller",Alfonso Cuarón,Sandra Bullock,2013,7.8,622089
+511,The Boy in the Striped Pyjamas,"Drama,War",Mark Herman,Asa Butterfield,2008,7.8,144614
+512,Shooter,"Action,Crime,Drama",Antoine Fuqua,Mark Wahlberg,2007,7.2,267820
+513,The Happening,"Sci-Fi,Thriller",M. Night Shyamalan,Mark Wahlberg,2008,5,170897
+514,Bone Tomahawk,"Adventure,Drama,Horror",S. Craig Zahler,Kurt Russell,2015,7.1,47289
+515,Magic Mike XXL,"Comedy,Drama,Music",Gregory Jacobs,Channing Tatum,2015,5.7,42506
+516,Easy A,"Comedy,Drama,Romance",Will Gluck,Emma Stone,2010,7.1,294950
+517,Exodus: Gods and Kings,"Action,Adventure,Drama",Ridley Scott,Christian Bale,2014,6,137299
+518,Chappie,"Action,Crime,Drama",Neill Blomkamp,Sharlto Copley,2015,6.9,188769
+519,The Hobbit: The Desolation of Smaug,"Adventure,Fantasy",Peter Jackson,Ian McKellen,2013,7.9,513744
+520,Half of a Yellow Sun,"Drama,Romance",Biyi Bandele,Chiwetel Ejiofor,2013,6.2,1356
+521,Anthropoid,"Biography,History,Thriller",Sean Ellis,Jamie Dornan,2016,7.2,24100
+522,The Counselor,"Crime,Drama,Thriller",Ridley Scott,Michael Fassbender,2013,5.3,84927
+523,Viking,"Action,Drama,History",Andrey Kravchuk,Anton Adasinsky,2016,4.7,1830
+524,Whiskey Tango Foxtrot,"Biography,Comedy,Drama",Glenn Ficarra,Tina Fey,2016,6.6,36156
+525,Trust,"Crime,Drama,Thriller",David Schwimmer,Clive Owen,2010,7,36043
+526,Birth of the Dragon,"Action,Biography,Drama",George Nolfi,Billy Magnussen,2016,3.9,552
+527,Elysium,"Action,Drama,Sci-Fi",Neill Blomkamp,Matt Damon,2013,6.6,358932
+528,The Green Inferno,"Adventure,Horror",Eli Roth,Lorenza Izzo,2013,5.4,26461
+529,Godzilla,"Action,Adventure,Sci-Fi",Gareth Edwards,Aaron Taylor-Johnson,2014,6.4,318058
+530,The Bourne Legacy,"Action,Adventure,Mystery",Tony Gilroy,Jeremy Renner,2012,6.7,245374
+531,A Good Year,"Comedy,Drama,Romance",Ridley Scott,Russell Crowe,2006,6.9,74674
+532,Friend Request,"Horror,Thriller",Simon Verhoeven,Alycia Debnam-Carey,2016,5.4,12758
+533,Deja Vu,"Action,Sci-Fi,Thriller",Tony Scott,Denzel Washington,2006,7,253858
+534,Lucy,"Action,Sci-Fi,Thriller",Luc Besson,Scarlett Johansson,2014,6.4,352698
+535,A Quiet Passion,"Biography,Drama",Terence Davies,Cynthia Nixon,2016,7.2,1024
+536,Need for Speed,"Action,Crime,Drama",Scott Waugh,Aaron Paul,2014,6.5,143389
+537,Jack Reacher,"Action,Crime,Mystery",Christopher McQuarrie,Tom Cruise,2012,7,250811
+538,The Do-Over,"Action,Adventure,Comedy",Steven Brill,Adam Sandler,2016,5.7,24761
+539,True Crimes,"Crime,Drama,Thriller",Alexandros Avranas,Jim Carrey,2016,7.3,198
+540,American Pastoral,"Crime,Drama",Ewan McGregor,Ewan McGregor,2016,6.1,7115
+541,The Ghost Writer,"Mystery,Thriller",Roman Polanski,Ewan McGregor,2010,7.2,137964
+542,Limitless,"Mystery,Sci-Fi,Thriller",Neil Burger,Bradley Cooper,2011,7.4,444417
+543,Spectral,"Action,Mystery,Sci-Fi",Nic Mathieu,James Badge Dale,2016,6.3,27042
+544,P.S. I Love You,"Drama,Romance",Richard LaGravenese,Hilary Swank,2007,7.1,177247
+545,Zipper,"Drama,Thriller",Mora Stephens,Patrick Wilson,2015,5.7,4912
+546,Midnight Special,"Drama,Mystery,Sci-Fi",Jeff Nichols,Michael Shannon,2016,6.7,54787
+547,Don't Think Twice,"Comedy,Drama",Mike Birbiglia,Keegan-Michael Key,2016,6.8,10485
+548,Alice in Wonderland,"Adventure,Family,Fantasy",Tim Burton,Mia Wasikowska,2010,6.5,324898
+549,Chuck,"Biography,Drama,Sport",Philippe Falardeau,Elisabeth Moss,2016,6.8,391
+550,"I, Daniel Blake",Drama,Ken Loach,Dave Johns,2016,7.9,22941
+551,The Break-Up,"Comedy,Drama,Romance",Peyton Reed,Jennifer Aniston,2006,5.8,106381
+552,Loving,"Biography,Drama,Romance",Jeff Nichols,Ruth Negga,2016,7.1,17141
+553,Fantastic Four,"Action,Adventure,Sci-Fi",Josh Trank,Miles Teller,2015,4.3,121847
+554,The Survivalist,"Drama,Sci-Fi,Thriller",Stephen Fingleton,Mia Goth,2015,6.3,9187
+555,Colonia,"Drama,Romance,Thriller",Florian Gallenberger,Emma Watson,2015,7.1,30074
+556,The Boy Next Door,"Mystery,Thriller",Rob Cohen,Jennifer Lopez,2015,4.6,30180
+557,The Gift,"Mystery,Thriller",Joel Edgerton,Jason Bateman,2015,7.1,96688
+558,Dracula Untold,"Action,Drama,Fantasy",Gary Shore,Luke Evans,2014,6.3,148504
+559,In the Heart of the Sea,"Action,Adventure,Biography",Ron Howard,Chris Hemsworth,2015,6.9,90372
+560,Idiocracy,"Adventure,Comedy,Sci-Fi",Mike Judge,Luke Wilson,2006,6.6,115355
+561,The Expendables,"Action,Adventure,Thriller",Sylvester Stallone,Sylvester Stallone,2010,6.5,283282
+562,Evil Dead,"Fantasy,Horror",Fede Alvarez,Jane Levy,2013,6.5,133113
+563,Sinister,"Horror,Mystery",Scott Derrickson,Ethan Hawke,2012,6.8,171169
+564,Wreck-It Ralph,"Animation,Adventure,Comedy",Rich Moore,John C. Reilly,2012,7.8,290559
+565,Snow White and the Huntsman,"Action,Adventure,Drama",Rupert Sanders,Kristen Stewart,2012,6.1,239772
+566,Pan,"Adventure,Family,Fantasy",Joe Wright,Levi Miller,2015,5.8,47804
+567,Transformers: Dark of the Moon,"Action,Adventure,Sci-Fi",Michael Bay,Shia LaBeouf,2011,6.3,338369
+568,Juno,"Comedy,Drama",Jason Reitman,Ellen Page,2007,7.5,432461
+569,A Hologram for the King,"Comedy,Drama",Tom Tykwer,Tom Hanks,2016,6.1,26521
+570,Money Monster,"Crime,Drama,Thriller",Jodie Foster,George Clooney,2016,6.5,68654
+571,The Other Woman,"Comedy,Romance",Nick Cassavetes,Cameron Diaz,2014,6,110825
+572,Enchanted,"Animation,Comedy,Family",Kevin Lima,Amy Adams,2007,7.1,150353
+573,The Intern,"Comedy,Drama",Nancy Meyers,Robert De Niro,2015,7.1,159582
+574,Little Miss Sunshine,"Comedy,Drama",Jonathan Dayton,Steve Carell,2006,7.8,374044
+575,Bleed for This,"Biography,Drama,Sport",Ben Younger,Miles Teller,2016,6.8,11900
+576,Clash of the Titans,"Action,Adventure,Fantasy",Louis Leterrier,Sam Worthington,2010,5.8,238206
+577,The Finest Hours,"Action,Drama,History",Craig Gillespie,Chris Pine,2016,6.8,44425
+578,Tron,"Action,Adventure,Sci-Fi",Joseph Kosinski,Jeff Bridges,2010,6.8,273959
+579,The Hunger Games: Catching Fire,"Action,Adventure,Mystery",Francis Lawrence,Jennifer Lawrence,2013,7.6,525646
+580,All Good Things,"Crime,Drama,Mystery",Andrew Jarecki,Ryan Gosling,2010,6.3,44158
+581,Kickboxer: Vengeance,Action,John Stockwell,Dave Bautista,2016,4.9,6809
+582,The Last Airbender,"Action,Adventure,Family",M. Night Shyamalan,Noah Ringer,2010,4.2,125129
+583,Sex Tape,"Comedy,Romance",Jake Kasdan,Jason Segel,2014,5.1,89885
+584,What to Expect When You're Expecting,"Comedy,Drama,Romance",Kirk Jones,Cameron Diaz,2012,5.7,60059
+585,Moneyball,"Biography,Drama,Sport",Bennett Miller,Brad Pitt,2011,7.6,297395
+586,Ghost Rider,"Action,Fantasy,Thriller",Mark Steven Johnson,Nicolas Cage,2007,5.2,190673
+587,Unbroken,"Biography,Drama,Sport",Angelina Jolie,Jack O'Connell,2014,7.2,114006
+588,Immortals,"Action,Drama,Fantasy",Tarsem Singh,Henry Cavill,2011,6,142900
+589,Sunshine,"Adventure,Sci-Fi,Thriller",Danny Boyle,Cillian Murphy,2007,7.3,199860
+590,Brave,"Animation,Adventure,Comedy",Mark Andrews,Kelly Macdonald,2012,7.2,293941
+591,Män som hatar kvinnor,"Drama,Mystery,Thriller",Niels Arden Oplev,Michael Nyqvist,2009,7.8,182074
+592,Adoration,"Drama,Romance",Anne Fontaine,Naomi Watts,2013,6.2,25208
+593,The Drop,"Crime,Drama,Mystery",Michaël R. Roskam,Tom Hardy,2014,7.1,116118
+594,She's the Man,"Comedy,Romance,Sport",Andy Fickman,Amanda Bynes,2006,6.4,122864
+595,Daddy's Home,"Comedy,Family",Sean Anders,Will Ferrell,2015,6.1,68306
+596,Let Me In,"Drama,Horror,Mystery",Matt Reeves,Kodi Smit-McPhee,2010,7.2,97141
+597,Never Back Down,"Action,Drama,Sport",Jeff Wadlow,Sean Faris,2008,6.6,84083
+598,Grimsby,"Action,Adventure,Comedy",Louis Leterrier,Sacha Baron Cohen,2016,6.2,63408
+599,Moon,"Drama,Mystery,Sci-Fi",Duncan Jones,Sam Rockwell,2009,7.9,277123
+600,Megamind,"Animation,Action,Comedy",Tom McGrath,Will Ferrell,2010,7.3,183926
+601,Gangster Squad,"Action,Crime,Drama",Ruben Fleischer,Sean Penn,2013,6.7,181432
+602,Blood Father,"Action,Crime,Drama",Jean-François Richet,Mel Gibson,2016,6.4,40357
+603,He's Just Not That Into You,"Comedy,Drama,Romance",Ken Kwapis,Jennifer Aniston,2009,6.4,137684
+604,Kung Fu Panda 3,"Animation,Action,Adventure",Alessandro Carloni,Jack Black,2016,7.2,89791
+605,The Rise of the Krays,"Crime,Drama",Zackary Adler,Matt Vael,2015,5.1,1630
+606,Handsome Devil,Drama,John Butler,Fionn O'Shea,2016,7.4,338
+607,Winter's Bone,Drama,Debra Granik,Jennifer Lawrence,2010,7.2,116435
+608,Horrible Bosses,"Comedy,Crime",Seth Gordon,Jason Bateman,2011,6.9,368556
+609,Mommy,Drama,Xavier Dolan,Anne Dorval,2014,8.1,33560
+610,Hellboy II: The Golden Army,"Action,Adventure,Fantasy",Guillermo del Toro,Ron Perlman,2008,7,216932
+611,Beautiful Creatures,"Drama,Fantasy,Romance",Richard LaGravenese,Alice Englert,2013,6.2,71822
+612,Toni Erdmann,"Comedy,Drama",Maren Ade,Sandra Hüller,2016,7.6,24387
+613,The Lovely Bones,"Drama,Fantasy,Thriller",Peter Jackson,Rachel Weisz,2009,6.7,130702
+614,The Assassination of Jesse James by the Coward Robert Ford,"Biography,Crime,Drama",Andrew Dominik,Brad Pitt,2007,7.5,143564
+615,Don Jon,"Comedy,Drama,Romance",Joseph Gordon-Levitt,Joseph Gordon-Levitt,2013,6.6,199973
+616,Bastille Day,"Action,Crime,Drama",James Watkins,Idris Elba,2016,6.3,21089
+617,2307: Winter's Dream,Sci-Fi,Joey Curtis,Paul Sidhu,2016,4,277
+618,Free State of Jones,"Action,Biography,Drama",Gary Ross,Matthew McConaughey,2016,6.9,29895
+619,Mr. Right,"Action,Comedy,Romance",Paco Cabezas,Anna Kendrick,2015,6.3,30053
+620,The Secret Life of Walter Mitty,"Adventure,Comedy,Drama",Ben Stiller,Ben Stiller,2013,7.3,249877
+621,Dope,"Comedy,Crime,Drama",Rick Famuyiwa,Shameik Moore,2015,7.3,66400
+622,Underworld Awakening,"Action,Fantasy,Horror",Måns Mårlind,Kate Beckinsale,2012,6.4,127157
+623,Antichrist,"Drama,Horror",Lars von Trier,Willem Dafoe,2009,6.6,94069
+624,Friday the 13th,Horror,Marcus Nispel,Jared Padalecki,2009,5.6,78631
+625,Taken 3,"Action,Thriller",Olivier Megaton,Liam Neeson,2014,6,144715
+626,Total Recall,"Action,Adventure,Mystery",Len Wiseman,Colin Farrell,2012,6.3,210965
+627,X-Men: The Last Stand,"Action,Adventure,Fantasy",Brett Ratner,Patrick Stewart,2006,6.7,406540
+628,The Escort,"Comedy,Drama,Romance",Will Slocombe,Lyndsy Fonseca,2016,6,7181
+629,The Whole Truth,"Crime,Drama,Mystery",Courtney Hunt,Keanu Reeves,2016,6.1,10700
+630,Night at the Museum: Secret of the Tomb,"Adventure,Comedy,Family",Shawn Levy,Ben Stiller,2014,6.2,74886
+631,Love & Other Drugs,"Comedy,Drama,Romance",Edward Zwick,Jake Gyllenhaal,2010,6.7,151519
+632,The Interview,Comedy,Evan Goldberg,James Franco,2014,6.6,261536
+633,The Host,"Comedy,Drama,Horror",Bong Joon Ho,Kang-ho Song,2006,7,73491
+634,Megan Is Missing,"Drama,Horror,Thriller",Michael Goi,Amber Perkins,2011,4.9,6683
+635,WALL·E,"Animation,Adventure,Family",Andrew Stanton,Ben Burtt,2008,8.4,776897
+636,Knocked Up,"Comedy,Romance",Judd Apatow,Seth Rogen,2007,7,309398
+637,Source Code,"Mystery,Romance,Sci-Fi",Duncan Jones,Jake Gyllenhaal,2011,7.5,404884
+638,Lawless,"Crime,Drama",John Hillcoat,Tom Hardy,2012,7.3,195360
+639,Unfriended,"Drama,Horror,Mystery",Levan Gabriadze,Heather Sossaman,2014,5.6,50402
+640,American Reunion,Comedy,Jon Hurwitz,Jason Biggs,2012,6.7,178471
+641,The Pursuit of Happyness,"Biography,Drama",Gabriele Muccino,Will Smith,2006,8,361105
+642,Relatos salvajes,"Comedy,Drama,Thriller",Damián Szifron,Darío Grandinetti,2014,8.1,110100
+643,The Ridiculous 6,"Comedy,Western",Frank Coraci,Adam Sandler,2015,4.8,31149
+644,Frantz,"Drama,History,War",François Ozon,Pierre Niney,2016,7.5,4304
+645,Viral,"Drama,Horror,Sci-Fi",Henry Joost,Sofia Black-D'Elia,2016,5.5,3564
+646,Gran Torino,Drama,Clint Eastwood,Clint Eastwood,2008,8.2,595779
+647,Burnt,"Comedy,Drama",John Wells,Bradley Cooper,2015,6.6,76469
+648,Tall Men,"Fantasy,Horror,Thriller",Jonathan Holbrook,Dan Crisafulli,2016,3.2,173
+649,Sleeping Beauty,"Drama,Romance",Julia Leigh,Emily Browning,2011,5.3,27006
+650,Vampire Academy,"Action,Comedy,Fantasy",Mark Waters,Zoey Deutch,2014,5.6,44111
+651,Sweeney Todd: The Demon Barber of Fleet Street,"Drama,Horror,Musical",Tim Burton,Johnny Depp,2007,7.4,296289
+652,Solace,"Crime,Drama,Mystery",Afonso Poyart,Anthony Hopkins,2015,6.4,36300
+653,Insidious,"Horror,Mystery,Thriller",James Wan,Patrick Wilson,2010,6.8,219916
+654,Popstar: Never Stop Never Stopping,"Comedy,Music",Akiva Schaffer,Andy Samberg,2016,6.7,30875
+655,The Levelling,Drama,Hope Dickson Leach,Ellie Kendrick,2016,6.4,482
+656,Public Enemies,"Biography,Crime,Drama",Michael Mann,Christian Bale,2009,7,240323
+657,Boyhood,Drama,Richard Linklater,Ellar Coltrane,2014,7.9,286722
+658,Teenage Mutant Ninja Turtles,"Action,Adventure,Comedy",Jonathan Liebesman,Megan Fox,2014,5.9,178527
+659,Eastern Promises,"Crime,Drama,Mystery",David Cronenberg,Naomi Watts,2007,7.7,198006
+660,The Daughter,Drama,Simon Stone,Geoffrey Rush,2015,6.7,2798
+661,Pineapple Express,"Action,Comedy,Crime",David Gordon Green,Seth Rogen,2008,7,267872
+662,The First Time,"Comedy,Drama,Romance",Jon Kasdan,Dylan O'Brien,2012,6.9,54027
+663,Gone Baby Gone,"Crime,Drama,Mystery",Ben Affleck,Morgan Freeman,2007,7.7,206707
+664,The Heat,"Action,Comedy,Crime",Paul Feig,Sandra Bullock,2013,6.6,140151
+665,L'avenir,Drama,Mia Hansen-Løve,Isabelle Huppert,2016,7.1,5796
+666,Anna Karenina,"Drama,Romance",Joe Wright,Keira Knightley,2012,6.6,75291
+667,Regression,"Crime,Drama,Mystery",Alejandro Amenábar,Ethan Hawke,2015,5.7,26320
+668,Ted 2,"Adventure,Comedy,Romance",Seth MacFarlane,Mark Wahlberg,2015,6.3,136323
+669,Pain & Gain,"Comedy,Crime,Drama",Michael Bay,Mark Wahlberg,2013,6.5,168875
+670,Blood Diamond,"Adventure,Drama,Thriller",Edward Zwick,Leonardo DiCaprio,2006,8,422014
+671,Devil's Knot,"Biography,Crime,Drama",Atom Egoyan,Colin Firth,2013,6.1,15514
+672,Child 44,"Crime,Drama,Thriller",Daniel Espinosa,Tom Hardy,2015,6.5,47703
+673,The Hurt Locker,"Drama,History,Thriller",Kathryn Bigelow,Jeremy Renner,2008,7.6,352023
+674,Green Lantern,"Action,Adventure,Sci-Fi",Martin Campbell,Ryan Reynolds,2011,5.6,231907
+675,War on Everyone,"Action,Comedy",John Michael McDonagh,Alexander Skarsgård,2016,5.9,9285
+676,The Mist,Horror,Frank Darabont,Thomas Jane,2007,7.2,233346
+677,Escape Plan,"Action,Crime,Mystery",Mikael Håfström,Sylvester Stallone,2013,6.7,188004
+678,"Love, Rosie","Comedy,Romance",Christian Ditter,Lily Collins,2014,7.2,80415
+679,The DUFF,Comedy,Ari Sandel,Mae Whitman,2015,6.5,57874
+680,The Age of Shadows,"Action,Drama,Thriller",Jee-woon Kim,Byung-hun Lee,2016,7.2,2403
+681,The Hunger Games: Mockingjay - Part 1,"Action,Adventure,Sci-Fi",Francis Lawrence,Jennifer Lawrence,2014,6.7,331902
+682,We Need to Talk About Kevin,"Drama,Mystery,Thriller",Lynne Ramsay,Tilda Swinton,2011,7.5,104953
+683,Love & Friendship,"Comedy,Drama,Romance",Whit Stillman,Kate Beckinsale,2016,6.5,16164
+684,The Mortal Instruments: City of Bones,"Action,Fantasy,Horror",Harald Zwart,Lily Collins,2013,5.9,112313
+685,Seven Pounds,"Drama,Romance",Gabriele Muccino,Will Smith,2008,7.7,245144
+686,The King's Speech,"Biography,Drama",Tom Hooper,Colin Firth,2010,8,534388
+687,Hunger,"Biography,Drama",Steve McQueen,Stuart Graham,2008,7.6,54486
+688,Jumper,"Action,Adventure,Sci-Fi",Doug Liman,Hayden Christensen,2008,6.1,252503
+689,Toy Story 3,"Animation,Adventure,Comedy",Lee Unkrich,Tom Hanks,2010,8.3,586669
+690,Tinker Tailor Soldier Spy,"Drama,Mystery,Thriller",Tomas Alfredson,Gary Oldman,2011,7.1,157053
+691,Resident Evil: Retribution,"Action,Horror,Sci-Fi",Paul W.S. Anderson,Milla Jovovich,2012,5.4,114144
+692,Dear Zindagi,"Drama,Romance",Gauri Shinde,Alia Bhatt,2016,7.8,23540
+693,Genius,"Biography,Drama",Michael Grandage,Colin Firth,2016,6.5,10708
+694,Pompeii,"Action,Adventure,Drama",Paul W.S. Anderson,Kit Harington,2014,5.5,90188
+695,Life of Pi,"Adventure,Drama,Fantasy",Ang Lee,Suraj Sharma,2012,7.9,471109
+696,Hachi: A Dog's Tale,"Drama,Family",Lasse Hallström,Richard Gere,2009,8.1,177602
+697,10 Years,"Comedy,Drama,Romance",Jamie Linden,Channing Tatum,2011,6.1,19636
+698,I Origins,"Drama,Romance,Sci-Fi",Mike Cahill,Michael Pitt,2014,7.3,86271
+699,Live Free or Die Hard,"Action,Adventure,Thriller",Len Wiseman,Bruce Willis,2007,7.2,347567
+700,The Matchbreaker,"Comedy,Romance",Caleb Vetter,Wesley Elder,2016,5.5,1427
+701,Funny Games,"Crime,Drama,Horror",Michael Haneke,Naomi Watts,2007,6.5,73835
+702,Ted,"Comedy,Fantasy",Seth MacFarlane,Mark Wahlberg,2012,7,494641
+703,RED,"Action,Comedy,Crime",Robert Schwentke,Bruce Willis,2010,7.1,250012
+704,Australia,"Adventure,Drama,Romance",Baz Luhrmann,Nicole Kidman,2008,6.6,106115
+705,Faster,"Action,Crime,Drama",George Tillman Jr.,Dwayne Johnson,2010,6.5,83788
+706,The Neighbor,"Crime,Horror,Thriller",Marcus Dunstan,Josh Stewart,2016,5.8,4754
+707,The Adjustment Bureau,"Romance,Sci-Fi,Thriller",George Nolfi,Matt Damon,2011,7.1,208632
+708,The Hollars,"Comedy,Drama,Romance",John Krasinski,Sharlto Copley,2016,6.5,5908
+709,The Judge,"Crime,Drama",David Dobkin,Robert Downey Jr.,2014,7.4,146812
+710,Closed Circuit,"Crime,Drama,Mystery",John Crowley,Eric Bana,2013,6.2,18437
+711,Transformers: Revenge of the Fallen,"Action,Adventure,Sci-Fi",Michael Bay,Shia LaBeouf,2009,6,335757
+712,La tortue rouge,"Animation,Fantasy",Michael Dudok de Wit,Emmanuel Garijo,2016,7.6,11482
+713,The Book of Life,"Animation,Adventure,Comedy",Jorge R. Gutiérrez,Diego Luna,2014,7.3,50388
+714,Incendies,"Drama,Mystery,War",Denis Villeneuve,Lubna Azabal,2010,8.2,92863
+715,The Heartbreak Kid,"Comedy,Romance",Bobby Farrelly,Ben Stiller,2007,5.8,74664
+716,Happy Feet,"Animation,Comedy,Family",George Miller,Elijah Wood,2006,6.5,141141
+717,Entourage,Comedy,Doug Ellin,Adrian Grenier,2015,6.6,64557
+718,The Strangers,"Horror,Mystery,Thriller",Bryan Bertino,Scott Speedman,2008,6.2,96718
+719,Noah,"Action,Adventure,Drama",Darren Aronofsky,Russell Crowe,2014,5.8,209700
+720,Neighbors,Comedy,Nicholas Stoller,Seth Rogen,2014,6.4,236500
+721,Nymphomaniac: Vol. II,Drama,Lars von Trier,Charlotte Gainsbourg,2013,6.7,65824
+722,Wild,"Adventure,Biography,Drama",Jean-Marc Vallée,Reese Witherspoon,2014,7.1,95553
+723,Grown Ups,Comedy,Dennis Dugan,Adam Sandler,2010,6,190385
+724,Blair Witch,"Horror,Thriller",Adam Wingard,James Allen McCune,2016,5.1,26088
+725,The Karate Kid,"Action,Drama,Family",Harald Zwart,Jackie Chan,2010,6.2,127983
+726,Dark Shadows,"Comedy,Fantasy,Horror",Tim Burton,Johnny Depp,2012,6.2,209326
+727,Friends with Benefits,"Comedy,Romance",Will Gluck,Mila Kunis,2011,6.6,286543
+728,The Illusionist,"Drama,Mystery,Romance",Neil Burger,Edward Norton,2006,7.6,309934
+729,The A-Team,"Action,Adventure,Comedy",Joe Carnahan,Liam Neeson,2010,6.8,219116
+730,The Guest,Thriller,Adam Wingard,Dan Stevens,2014,6.7,71069
+731,The Internship,Comedy,Shawn Levy,Vince Vaughn,2013,6.3,166342
+732,Paul,"Adventure,Comedy,Sci-Fi",Greg Mottola,Simon Pegg,2011,7,201707
+733,This Beautiful Fantastic,"Comedy,Drama,Fantasy",Simon Aboud,Jessica Brown Findlay,2016,6.9,688
+734,The Da Vinci Code,"Mystery,Thriller",Ron Howard,Tom Hanks,2006,6.6,338280
+735,Mr. Church,"Comedy,Drama",Bruce Beresford,Eddie Murphy,2016,7.7,16163
+736,Hugo,"Adventure,Drama,Family",Martin Scorsese,Asa Butterfield,2011,7.5,259182
+737,The Blackcoat's Daughter,"Horror,Thriller",Oz Perkins,Emma Roberts,2015,5.6,4155
+738,Body of Lies,"Action,Drama,Romance",Ridley Scott,Leonardo DiCaprio,2008,7.1,182305
+739,Knight of Cups,"Drama,Romance",Terrence Malick,Christian Bale,2015,5.7,17439
+740,The Mummy: Tomb of the Dragon Emperor,"Action,Adventure,Fantasy",Rob Cohen,Brendan Fraser,2008,5.2,124554
+741,The Boss,Comedy,Ben Falcone,Melissa McCarthy,2016,5.4,29642
+742,Hands of Stone,"Action,Biography,Drama",Jonathan Jakubowicz,Edgar Ramírez,2016,6.6,8998
+743,El secreto de sus ojos,"Drama,Mystery,Romance",Juan José Campanella,Ricardo Darín,2009,8.2,144524
+744,True Grit,"Adventure,Drama,Western",Ethan Coen,Jeff Bridges,2010,7.6,254904
+745,We Are Your Friends,"Drama,Music,Romance",Max Joseph,Zac Efron,2015,6.2,25903
+746,A Million Ways to Die in the West,"Comedy,Romance,Western",Seth MacFarlane,Seth MacFarlane,2014,6.1,144779
+747,Only for One Night,Thriller,Chris Stokes,Brian White,2016,4.6,313
+748,Rules Don't Apply,"Comedy,Drama,Romance",Warren Beatty,Lily Collins,2016,5.7,3731
+749,Ouija: Origin of Evil,"Horror,Thriller",Mike Flanagan,Elizabeth Reaser,2016,6.1,30035
+750,Percy Jackson: Sea of Monsters,"Adventure,Family,Fantasy",Thor Freudenthal,Logan Lerman,2013,5.9,91684
+751,Fracture,"Crime,Drama,Mystery",Gregory Hoblit,Anthony Hopkins,2007,7.2,148943
+752,Oculus,"Horror,Mystery",Mike Flanagan,Karen Gillan,2013,6.5,92875
+753,In Bruges,"Comedy,Crime,Drama",Martin McDonagh,Colin Farrell,2008,7.9,322536
+754,This Means War,"Action,Comedy,Romance",McG,Reese Witherspoon,2012,6.3,154400
+755,Lída Baarová,"Biography,Drama,History",Filip Renc,Tatiana Pauhofová,2016,5,353
+756,The Road,"Adventure,Drama",John Hillcoat,Viggo Mortensen,2009,7.3,187302
+757,Lavender,"Drama,Thriller",Ed Gass-Donnelly,Abbie Cornish,2016,5.2,2083
+758,Deuces,Drama,Jamal Hill,Larenz Tate,2016,6.6,256
+759,Conan the Barbarian,"Action,Adventure,Fantasy",Marcus Nispel,Jason Momoa,2011,5.2,84893
+760,The Fighter,"Action,Biography,Drama",David O. Russell,Mark Wahlberg,2010,7.8,290056
+761,August Rush,"Drama,Music",Kirsten Sheridan,Freddie Highmore,2007,7.5,91229
+762,Chef,"Comedy,Drama",Jon Favreau,Jon Favreau,2014,7.3,151970
+763,Eye in the Sky,"Drama,Thriller,War",Gavin Hood,Helen Mirren,2015,7.3,57826
+764,Eagle Eye,"Action,Mystery,Thriller",D.J. Caruso,Shia LaBeouf,2008,6.6,156158
+765,The Purge,"Horror,Sci-Fi,Thriller",James DeMonaco,Ethan Hawke,2013,5.7,154588
+766,PK,"Comedy,Drama,Romance",Rajkumar Hirani,Aamir Khan,2014,8.2,103279
+767,Ender's Game,"Action,Sci-Fi",Gavin Hood,Harrison Ford,2013,6.7,194236
+768,Indiana Jones and the Kingdom of the Crystal Skull,"Action,Adventure,Fantasy",Steven Spielberg,Harrison Ford,2008,6.2,351361
+769,Paper Towns,"Drama,Mystery,Romance",Jake Schreier,Nat Wolff,2015,6.3,72515
+770,High-Rise,Drama,Ben Wheatley,Tom Hiddleston,2015,5.7,25928
+771,Quantum of Solace,"Action,Adventure,Thriller",Marc Forster,Daniel Craig,2008,6.6,347798
+772,The Assignment,"Action,Crime,Thriller",Walter Hill,Sigourney Weaver,2016,4.5,2043
+773,How to Train Your Dragon,"Animation,Action,Adventure",Dean DeBlois,Jay Baruchel,2010,8.1,523893
+774,Lady in the Water,"Drama,Fantasy,Mystery",M. Night Shyamalan,Paul Giamatti,2006,5.6,82701
+775,The Fountain,"Drama,Sci-Fi",Darren Aronofsky,Hugh Jackman,2006,7.3,199193
+776,Cars 2,"Animation,Adventure,Comedy",John Lasseter,Owen Wilson,2011,6.2,110490
+777,31,"Horror,Thriller",Rob Zombie,Malcolm McDowell,2016,5.1,10871
+778,Final Girl,"Action,Thriller",Tyler Shields,Abigail Breslin,2015,4.7,9026
+779,Chalk It Up,Comedy,Hisonni Johnson,Maddy Curley,2016,4.8,499
+780,The Man Who Knew Infinity,"Biography,Drama",Matt Brown,Dev Patel,2015,7.2,29912
+781,Unknown,"Action,Mystery,Thriller",Jaume Collet-Serra,Liam Neeson,2011,6.9,218679
+782,Self/less,"Action,Mystery,Sci-Fi",Tarsem Singh,Ryan Reynolds,2015,6.5,67196
+783,Mr. Brooks,"Crime,Drama,Thriller",Bruce A. Evans,Kevin Costner,2007,7.3,128146
+784,Tramps,"Comedy,Romance",Adam Leon,Callum Turner,2016,6.5,1031
+785,Before We Go,"Comedy,Drama,Romance",Chris Evans,Chris Evans,2014,6.9,31370
+786,Captain Phillips,"Biography,Drama,Thriller",Paul Greengrass,Tom Hanks,2013,7.8,346154
+787,The Secret Scripture,Drama,Jim Sheridan,Rooney Mara,2016,6.8,378
+788,Max Steel,"Action,Adventure,Family",Stewart Hendler,Ben Winchell,2016,4.6,11555
+789,Hotel Transylvania 2,"Animation,Comedy,Family",Genndy Tartakovsky,Adam Sandler,2015,6.7,69157
+790,Hancock,"Action,Crime,Drama",Peter Berg,Will Smith,2008,6.4,366138
+791,Sisters,Comedy,Jason Moore,Amy Poehler,2015,6,50241
+792,The Family,"Comedy,Crime,Thriller",Luc Besson,Robert De Niro,2013,6.3,92868
+793,Zack and Miri Make a Porno,"Comedy,Romance",Kevin Smith,Seth Rogen,2008,6.6,154936
+794,Ma vie de Courgette,"Animation,Comedy,Drama",Claude Barras,Gaspard Schlatter,2016,7.8,4370
+795,Man on a Ledge,"Action,Crime,Thriller",Asger Leth,Sam Worthington,2012,6.6,129252
+796,No Strings Attached,"Comedy,Romance",Ivan Reitman,Natalie Portman,2011,6.2,178243
+797,Rescue Dawn,"Adventure,Biography,Drama",Werner Herzog,Christian Bale,2006,7.3,87887
+798,Despicable Me 2,"Animation,Adventure,Comedy",Pierre Coffin,Steve Carell,2013,7.4,304837
+799,A Walk Among the Tombstones,"Crime,Drama,Mystery",Scott Frank,Liam Neeson,2014,6.5,93883
+800,The World's End,"Action,Comedy,Sci-Fi",Edgar Wright,Simon Pegg,2013,7,199813
+801,Yoga Hosers,"Comedy,Fantasy,Horror",Kevin Smith,Lily-Rose Depp,2016,4.3,7091
+802,Seven Psychopaths,"Comedy,Crime",Martin McDonagh,Colin Farrell,2012,7.2,196652
+803,Beowulf,"Animation,Action,Adventure",Robert Zemeckis,Ray Winstone,2007,6.2,146566
+804,Jack Ryan: Shadow Recruit,"Action,Drama,Thriller",Kenneth Branagh,Chris Pine,2014,6.2,103681
+805,1408,"Fantasy,Horror",Mikael Håfström,John Cusack,2007,6.8,221073
+806,The Gambler,"Crime,Drama,Thriller",Rupert Wyatt,Mark Wahlberg,2014,6,52537
+807,Prince of Persia: The Sands of Time,"Action,Adventure,Fantasy",Mike Newell,Jake Gyllenhaal,2010,6.6,233148
+808,The Spectacular Now,"Comedy,Drama,Romance",James Ponsoldt,Miles Teller,2013,7.1,115751
+809,A United Kingdom,"Biography,Drama,Romance",Amma Asante,David Oyelowo,2016,6.8,4771
+810,USS Indianapolis: Men of Courage,"Action,Drama,History",Mario Van Peebles,Nicolas Cage,2016,5.2,4964
+811,Turbo Kid,"Action,Adventure,Comedy",François Simard,Munro Chambers,2015,6.7,19309
+812,Mama,"Horror,Thriller",Andrés Muschietti,Jessica Chastain,2013,6.2,142560
+813,Orphan,"Horror,Mystery,Thriller",Jaume Collet-Serra,Vera Farmiga,2009,7,153448
+814,To Rome with Love,"Comedy,Romance",Woody Allen,Woody Allen,2012,6.3,72050
+815,Fantastic Mr. Fox,"Animation,Adventure,Comedy",Wes Anderson,George Clooney,2009,7.8,149779
+816,Inside Man,"Crime,Drama,Mystery",Spike Lee,Denzel Washington,2006,7.6,285441
+817,I.T.,"Crime,Drama,Mystery",John Moore,Pierce Brosnan,2016,5.4,8755
+818,127 Hours,"Adventure,Biography,Drama",Danny Boyle,James Franco,2010,7.6,294010
+819,Annabelle,"Horror,Mystery,Thriller",John R. Leonetti,Ward Horton,2014,5.4,91106
+820,Wolves at the Door,"Horror,Thriller",John R. Leonetti,Katie Cassidy,2016,4.6,564
+821,Suite Française,"Drama,Romance,War",Saul Dibb,Michelle Williams,2014,6.9,13711
+822,The Imaginarium of Doctor Parnassus,"Adventure,Fantasy,Mystery",Terry Gilliam,Christopher Plummer,2009,6.8,130153
+823,G.I. Joe: The Rise of Cobra,"Action,Adventure,Sci-Fi",Stephen Sommers,Dennis Quaid,2009,5.8,180105
+824,Christine,"Biography,Drama",Antonio Campos,Rebecca Hall,2016,7,5855
+825,Man Down,"Drama,Thriller",Dito Montiel,Shia LaBeouf,2015,5.8,4779
+826,Crawlspace,"Horror,Thriller",Phil Claydon,Michael Vartan,2016,5.3,1427
+827,Shut In,"Drama,Horror,Thriller",Farren Blackburn,Naomi Watts,2016,4.6,5715
+828,The Warriors Gate,"Action,Adventure,Fantasy",Matthias Hoene,Mark Chao,2016,5.3,1391
+829,Grindhouse,"Action,Horror,Thriller",Robert Rodriguez,Kurt Russell,2007,7.6,160350
+830,Disaster Movie,Comedy,Jason Friedberg,Carmen Electra,2008,1.9,77207
+831,Rocky Balboa,"Drama,Sport",Sylvester Stallone,Sylvester Stallone,2006,7.2,171356
+832,Diary of a Wimpy Kid: Dog Days,"Comedy,Family",David Bowers,Zachary Gordon,2012,6.4,16917
+833,Jane Eyre,"Drama,Romance",Cary Joji Fukunaga,Mia Wasikowska,2011,7.4,67464
+834,Fool's Gold,"Action,Adventure,Comedy",Andy Tennant,Matthew McConaughey,2008,5.7,62719
+835,The Dictator,Comedy,Larry Charles,Sacha Baron Cohen,2012,6.4,225394
+836,The Loft,"Mystery,Romance,Thriller",Erik Van Looy,Karl Urban,2014,6.3,38804
+837,Bacalaureat,"Crime,Drama",Cristian Mungiu,Adrian Titieni,2016,7.5,5531
+838,You Don't Mess with the Zohan,"Action,Comedy",Dennis Dugan,Adam Sandler,2008,5.5,163144
+839,Exposed,"Crime,Drama,Mystery",Gee Malik Linton,Ana de Armas,2016,4.2,8409
+840,Maudie,"Biography,Drama,Romance",Aisling Walsh,Ethan Hawke,2016,7.8,346
+841,Horrible Bosses 2,"Comedy,Crime",Sean Anders,Jason Bateman,2014,6.3,125190
+842,A Bigger Splash,"Drama,Thriller",Luca Guadagnino,Tilda Swinton,2015,6.4,15232
+843,Melancholia,Drama,Lars von Trier,Kirsten Dunst,2011,7.1,137117
+844,The Princess and the Frog,"Animation,Adventure,Comedy",Ron Clements,Anika Noni Rose,2009,7.1,95480
+845,Unstoppable,"Action,Thriller",Tony Scott,Denzel Washington,2010,6.8,157499
+846,Flight,"Drama,Thriller",Robert Zemeckis,Denzel Washington,2012,7.3,276347
+847,Home,"Animation,Adventure,Comedy",Tim Johnson,Jim Parsons,2015,6.7,77447
+848,La migliore offerta,"Crime,Drama,Mystery",Giuseppe Tornatore,Geoffrey Rush,2013,7.8,77986
+849,Mean Dreams,Thriller,Nathan Morlando,Sophie Nélisse,2016,6.3,1066
+850,42,"Biography,Drama,Sport",Brian Helgeland,Chadwick Boseman,2013,7.5,69659
+851,21,"Crime,Drama,Thriller",Robert Luketic,Jim Sturgess,2008,6.8,198395
+852,Begin Again,"Drama,Music",John Carney,Keira Knightley,2013,7.4,111875
+853,Out of the Furnace,"Crime,Drama,Thriller",Scott Cooper,Christian Bale,2013,6.8,88829
+854,Vicky Cristina Barcelona,"Drama,Romance",Woody Allen,Rebecca Hall,2008,7.1,208770
+855,Kung Fu Panda,"Animation,Action,Adventure",Mark Osborne,Jack Black,2008,7.6,329788
+856,Barbershop: The Next Cut,"Comedy,Drama",Malcolm D. Lee,Ice Cube,2016,5.9,9993
+857,Terminator Salvation,"Action,Adventure,Drama",McG,Christian Bale,2009,6.6,297093
+858,Freedom Writers,"Biography,Crime,Drama",Richard LaGravenese,Hilary Swank,2007,7.5,55648
+859,The Hills Have Eyes,Horror,Alexandre Aja,Ted Levine,2006,6.4,136642
+860,Changeling,"Biography,Drama,Mystery",Clint Eastwood,Angelina Jolie,2008,7.8,206793
+861,Remember Me,"Drama,Romance",Allen Coulter,Robert Pattinson,2010,7.2,119376
+862,Koe no katachi,"Animation,Drama,Romance",Naoko Yamada,Miyu Irino,2016,8.4,2421
+863,"Alexander and the Terrible, Horrible, No Good, Very Bad Day","Comedy,Family",Miguel Arteta,Steve Carell,2014,6.2,32310
+864,Locke,Drama,Steven Knight,Tom Hardy,2013,7.1,100890
+865,The 9th Life of Louis Drax,"Mystery,Thriller",Alexandre Aja,Jamie Dornan,2016,6.3,6175
+866,Horns,"Drama,Fantasy,Horror",Alexandre Aja,Daniel Radcliffe,2013,6.5,61060
+867,Indignation,"Drama,Romance",James Schamus,Logan Lerman,2016,6.9,7402
+868,The Stanford Prison Experiment,"Biography,Drama,History",Kyle Patrick Alvarez,Ezra Miller,2015,6.9,20907
+869,Diary of a Wimpy Kid: Rodrick Rules,"Comedy,Family",David Bowers,Zachary Gordon,2011,6.6,20194
+870,Mission: Impossible III,"Action,Adventure,Thriller",J.J. Abrams,Tom Cruise,2006,6.9,270429
+871,En man som heter Ove,"Comedy,Drama",Hannes Holm,Rolf Lassgård,2015,7.7,21569
+872,Dragonball Evolution,"Action,Adventure,Fantasy",James Wong,Justin Chatwin,2009,2.7,59512
+873,Red Dawn,"Action,Thriller",Dan Bradley,Chris Hemsworth,2012,5.4,64584
+874,One Day,"Drama,Romance",Lone Scherfig,Anne Hathaway,2011,7,113599
+875,Life as We Know It,"Comedy,Drama,Romance",Greg Berlanti,Katherine Heigl,2010,6.6,101301
+876,28 Weeks Later,"Drama,Horror,Sci-Fi",Juan Carlos Fresnadillo,Jeremy Renner,2007,7,221858
+877,Warm Bodies,"Comedy,Horror,Romance",Jonathan Levine,Nicholas Hoult,2013,6.9,193579
+878,Blue Jasmine,Drama,Woody Allen,Cate Blanchett,2013,7.3,160592
+879,G.I. Joe: Retaliation,"Action,Adventure,Sci-Fi",Jon M. Chu,Dwayne Johnson,2013,5.8,152145
+880,Wrath of the Titans,"Action,Adventure,Fantasy",Jonathan Liebesman,Sam Worthington,2012,5.8,159230
+881,Shin Gojira,"Action,Adventure,Drama",Hideaki Anno,Hiroki Hasegawa,2016,6.9,8365
+882,Saving Mr. Banks,"Biography,Comedy,Drama",John Lee Hancock,Emma Thompson,2013,7.5,125693
+883,Transcendence,"Drama,Mystery,Romance",Wally Pfister,Johnny Depp,2014,6.3,184564
+884,Rio,"Animation,Adventure,Comedy",Carlos Saldanha,Jesse Eisenberg,2011,6.9,173919
+885,Equals,"Drama,Romance,Sci-Fi",Drake Doremus,Nicholas Hoult,2015,6.1,16361
+886,Babel,Drama,Alejandro González Iñárritu,Brad Pitt,2006,7.5,253417
+887,The Tree of Life,"Drama,Fantasy",Terrence Malick,Brad Pitt,2011,6.8,143517
+888,The Lucky One,"Drama,Romance",Scott Hicks,Zac Efron,2012,6.5,82874
+889,Piranha 3D,"Comedy,Horror,Thriller",Alexandre Aja,Elisabeth Shue,2010,5.5,75262
+890,50/50,"Comedy,Drama,Romance",Jonathan Levine,Joseph Gordon-Levitt,2011,7.7,281625
+891,The Intent,"Crime,Drama",Femi Oyeniran,Dylan Duffus,2016,3.5,202
+892,This Is 40,"Comedy,Romance",Judd Apatow,Paul Rudd,2012,6.2,108156
+893,Real Steel,"Action,Drama,Family",Shawn Levy,Hugh Jackman,2011,7.1,264480
+894,Sex and the City,"Comedy,Drama,Romance",Michael Patrick King,Sarah Jessica Parker,2008,5.5,102547
+895,Rambo,"Action,Thriller,War",Sylvester Stallone,Sylvester Stallone,2008,7.1,187077
+896,Planet Terror,"Action,Comedy,Horror",Robert Rodriguez,Rose McGowan,2007,7.1,174553
+897,Concussion,"Biography,Drama,Sport",Peter Landesman,Will Smith,2015,7.1,61274
+898,The Fall,"Adventure,Comedy,Drama",Tarsem Singh,Lee Pace,2006,7.9,93036
+899,The Ugly Truth,"Comedy,Romance",Robert Luketic,Katherine Heigl,2009,6.5,172558
+900,Bride Wars,"Comedy,Romance",Gary Winick,Kate Hudson,2009,5.5,83976
+901,Sleeping with Other People,"Comedy,Drama,Romance",Leslye Headland,Jason Sudeikis,2015,6.5,27730
+902,Snakes on a Plane,"Action,Adventure,Crime",David R. Ellis,Samuel L. Jackson,2006,5.6,118905
+903,What If,"Comedy,Romance",Michael Dowse,Daniel Radcliffe,2013,6.8,55243
+904,How to Train Your Dragon 2,"Animation,Action,Adventure",Dean DeBlois,Jay Baruchel,2014,7.9,237565
+905,RoboCop,"Action,Crime,Sci-Fi",José Padilha,Joel Kinnaman,2014,6.2,190833
+906,In Dubious Battle,Drama,James Franco,Nat Wolff,2016,6.2,1455
+907,"Hello, My Name Is Doris","Comedy,Drama,Romance",Michael Showalter,Sally Field,2015,6.7,12361
+908,Ocean's Thirteen,"Crime,Thriller",Steven Soderbergh,George Clooney,2007,6.9,269581
+909,Slither,"Comedy,Horror,Sci-Fi",James Gunn,Nathan Fillion,2006,6.5,64351
+910,Contagion,"Drama,Thriller",Steven Soderbergh,Matt Damon,2011,6.6,187004
+911,Il racconto dei racconti - Tale of Tales,"Drama,Fantasy,Horror",Matteo Garrone,Salma Hayek,2015,6.4,17565
+912,I Am the Pretty Thing That Lives in the House,Thriller,Oz Perkins,Ruth Wilson,2016,4.7,4204
+913,Bridge to Terabithia,"Adventure,Drama,Family",Gabor Csupo,Josh Hutcherson,2007,7.2,117297
+914,Coherence,"Mystery,Sci-Fi,Thriller",James Ward Byrkit,Emily Baldoni,2013,7.2,66265
+915,Notorious,"Biography,Crime,Drama",George Tillman Jr.,Jamal Woolard,2009,6.7,33007
+916,Goksung,"Drama,Fantasy,Horror",Hong-jin Na,Jun Kunimura,2016,7.5,17962
+917,The Expendables 2,"Action,Adventure,Thriller",Simon West,Sylvester Stallone,2012,6.6,257395
+918,The Girl Next Door,"Crime,Drama,Horror",Gregory Wilson,William Atherton,2007,6.7,19351
+919,Perfume: The Story of a Murderer,"Crime,Drama,Fantasy",Tom Tykwer,Ben Whishaw,2006,7.5,199387
+920,The Golden Compass,"Adventure,Family,Fantasy",Chris Weitz,Nicole Kidman,2007,6.1,155078
+921,Centurion,"Action,Adventure,Drama",Neil Marshall,Michael Fassbender,2010,6.4,67801
+922,Scouts Guide to the Zombie Apocalypse,"Action,Comedy,Horror",Christopher Landon,Tye Sheridan,2015,6.3,31651
+923,17 Again,"Comedy,Drama,Family",Burr Steers,Zac Efron,2009,6.4,152808
+924,No Escape,"Action,Thriller",John Erick Dowdle,Lake Bell,2015,6.8,57921
+925,Superman Returns,"Action,Adventure,Sci-Fi",Bryan Singer,Brandon Routh,2006,6.1,246797
+926,The Twilight Saga: Breaking Dawn - Part 1,"Adventure,Drama,Fantasy",Bill Condon,Kristen Stewart,2011,4.9,190244
+927,Precious,Drama,Lee Daniels,Gabourey Sidibe,2009,7.3,91623
+928,The Sea of Trees,Drama,Gus Van Sant,Matthew McConaughey,2015,5.9,7475
+929,Good Kids,Comedy,Chris McCoy,Zoey Deutch,2016,6.1,3843
+930,The Master,Drama,Paul Thomas Anderson,Philip Seymour Hoffman,2012,7.1,112902
+931,Footloose,"Comedy,Drama,Music",Craig Brewer,Kenny Wormald,2011,5.9,39380
+932,If I Stay,"Drama,Fantasy,Music",R.J. Cutler,Chloë Grace Moretz,2014,6.8,92170
+933,The Ticket,Drama,Ido Fluk,Dan Stevens,2016,5.4,924
+934,Detour,Thriller,Christopher Smith,Tye Sheridan,2016,6.3,2205
+935,The Love Witch,"Comedy,Horror",Anna Biller,Samantha Robinson,2016,6.2,4669
+936,Talladega Nights: The Ballad of Ricky Bobby,"Action,Comedy,Sport",Adam McKay,Will Ferrell,2006,6.6,137502
+937,The Human Centipede (First Sequence),Horror,Tom Six,Dieter Laser,2009,4.4,60655
+938,Super,"Comedy,Drama",James Gunn,Rainn Wilson,2010,6.8,64535
+939,The Siege of Jadotville,"Action,Drama,Thriller",Richie Smyth,Jamie Dornan,2016,7.3,14689
+940,Up in the Air,"Drama,Romance",Jason Reitman,George Clooney,2009,7.4,279694
+941,The Midnight Meat Train,"Horror,Mystery",Ryûhei Kitamura,Vinnie Jones,2008,6.1,50255
+942,The Twilight Saga: Eclipse,"Adventure,Drama,Fantasy",David Slade,Kristen Stewart,2010,4.9,192740
+943,Transpecos,Thriller,Greg Kwedar,Johnny Simmons,2016,5.8,1292
+944,What's Your Number?,"Comedy,Romance",Mark Mylod,Anna Faris,2011,6.1,62095
+945,Riddick,"Action,Sci-Fi,Thriller",David Twohy,Vin Diesel,2013,6.4,132098
+946,Triangle,"Fantasy,Mystery,Thriller",Christopher Smith,Melissa George,2009,6.9,72533
+947,The Butler,"Biography,Drama",Lee Daniels,Forest Whitaker,2013,7.2,93322
+948,King Cobra,"Crime,Drama",Justin Kelly,Garrett Clayton,2016,5.6,3990
+949,After Earth,"Action,Adventure,Sci-Fi",M. Night Shyamalan,Jaden Smith,2013,4.9,166512
+950,Kicks,Adventure,Justin Tipping,Jahking Guillory,2016,6.1,2417
+951,Me and Earl and the Dying Girl,"Comedy,Drama",Alfonso Gomez-Rejon,Thomas Mann,2015,7.8,92076
+952,The Descendants,"Comedy,Drama",Alexander Payne,George Clooney,2011,7.3,211348
+953,Sex and the City 2,"Comedy,Drama,Romance",Michael Patrick King,Sarah Jessica Parker,2010,4.3,62403
+954,The Kings of Summer,"Adventure,Comedy,Drama",Jordan Vogt-Roberts,Nick Robinson,2013,7.2,65653
+955,Death Race,"Action,Sci-Fi,Thriller",Paul W.S. Anderson,Jason Statham,2008,6.4,173731
+956,That Awkward Moment,"Comedy,Romance",Tom Gormican,Zac Efron,2014,6.2,81823
+957,Legion,"Action,Fantasy,Horror",Scott Stewart,Paul Bettany,2010,5.2,84158
+958,End of Watch,"Crime,Drama,Thriller",David Ayer,Jake Gyllenhaal,2012,7.7,192190
+959,3 Days to Kill,"Action,Drama,Thriller",McG,Kevin Costner,2014,6.2,73567
+960,Lucky Number Slevin,"Crime,Drama,Mystery",Paul McGuigan,Josh Hartnett,2006,7.8,271940
+961,Trance,"Crime,Drama,Mystery",Danny Boyle,James McAvoy,2013,7,97141
+962,Into the Forest,"Drama,Sci-Fi,Thriller",Patricia Rozema,Ellen Page,2015,5.9,10220
+963,The Other Boleyn Girl,"Biography,Drama,History",Justin Chadwick,Natalie Portman,2008,6.7,88260
+964,I Spit on Your Grave,"Crime,Horror,Thriller",Steven R. Monroe,Sarah Butler,2010,6.3,60133
+965,Custody,Drama,James Lapine,Viola Davis,2016,6.9,280
+966,Inland Empire,"Drama,Mystery,Thriller",David Lynch,Laura Dern,2006,7,44227
+967,L'odyssée,"Adventure,Biography",Jérôme Salle,Lambert Wilson,2016,6.7,1810
+968,The Walk,"Adventure,Biography,Crime",Robert Zemeckis,Joseph Gordon-Levitt,2015,7.3,92378
+969,Wrecker,"Action,Horror,Thriller",Micheal Bafaro,Anna Hutchison,2015,3.5,1210
+970,The Lone Ranger,"Action,Adventure,Western",Gore Verbinski,Johnny Depp,2013,6.5,190855
+971,Texas Chainsaw 3D,"Horror,Thriller",John Luessenhop,Alexandra Daddario,2013,4.8,37060
+972,Disturbia,"Drama,Mystery,Thriller",D.J. Caruso,Shia LaBeouf,2007,6.9,193491
+973,Rock of Ages,"Comedy,Drama,Musical",Adam Shankman,Julianne Hough,2012,5.9,64513
+974,Scream 4,"Horror,Mystery",Wes Craven,Neve Campbell,2011,6.2,108544
+975,Queen of Katwe,"Biography,Drama,Sport",Mira Nair,Madina Nalwanga,2016,7.4,6753
+976,My Big Fat Greek Wedding 2,"Comedy,Family,Romance",Kirk Jones,Nia Vardalos,2016,6,20966
+977,Dark Places,"Drama,Mystery,Thriller",Gilles Paquet-Brenner,Charlize Theron,2015,6.2,31634
+978,Amateur Night,Comedy,Lisa Addario,Jason Biggs,2016,5,2229
+979,It's Only the End of the World,Drama,Xavier Dolan,Nathalie Baye,2016,7,10658
+980,The Skin I Live In,"Drama,Thriller",Pedro Almodóvar,Antonio Banderas,2011,7.6,108772
+981,Miracles from Heaven,"Biography,Drama,Family",Patricia Riggen,Jennifer Garner,2016,7,12048
+982,Annie,"Comedy,Drama,Family",Will Gluck,Quvenzhané Wallis,2014,5.3,27312
+983,Across the Universe,"Drama,Fantasy,Musical",Julie Taymor,Evan Rachel Wood,2007,7.4,95172
+984,Let's Be Cops,Comedy,Luke Greenfield,Jake Johnson,2014,6.5,112729
+985,Max,"Adventure,Family",Boaz Yakin,Thomas Haden Church,2015,6.8,21405
+986,Your Highness,"Adventure,Comedy,Fantasy",David Gordon Green,Danny McBride,2011,5.6,87904
+987,Final Destination 5,"Horror,Thriller",Steven Quale,Nicholas D'Agosto,2011,5.9,88000
+988,Endless Love,"Drama,Romance",Shana Feste,Gabriella Wilde,2014,6.3,33688
+989,Martyrs,Horror,Pascal Laugier,Morjana Alaoui,2008,7.1,63785
+990,Selma,"Biography,Drama,History",Ava DuVernay,David Oyelowo,2014,7.5,67637
+991,Underworld: Rise of the Lycans,"Action,Adventure,Fantasy",Patrick Tatopoulos,Rhona Mitra,2009,6.6,129708
+992,Taare Zameen Par,"Drama,Family,Music",Aamir Khan,Darsheel Safary,2007,8.5,102697
+993,Take Me Home Tonight,"Comedy,Drama,Romance",Michael Dowse,Topher Grace,2011,6.3,45419
+994,Resident Evil: Afterlife,"Action,Adventure,Horror",Paul W.S. Anderson,Milla Jovovich,2010,5.9,140900
+995,Project X,Comedy,Nima Nourizadeh,Thomas Mann,2012,6.7,164088
+996,Secret in Their Eyes,"Crime,Drama,Mystery",Billy Ray,Chiwetel Ejiofor,2015,6.2,27585
+997,Hostel: Part II,Horror,Eli Roth,Lauren German,2007,5.5,73152
+998,Step Up 2: The Streets,"Drama,Music,Romance",Jon M. Chu,Robert Hoffman,2008,6.2,70699
+999,Search Party,"Adventure,Comedy",Scot Armstrong,Adam Pally,2014,5.6,4881
+1000,Nine Lives,"Comedy,Family,Fantasy",Barry Sonnenfeld,Kevin Spacey,2016,5.3,12435
