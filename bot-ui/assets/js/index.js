@@ -69,7 +69,9 @@ var createResponse = function(type, text, sd){
         var par = document.createElement('p')
         if(sd == 0){
             prefix = "Hey, your query fetched multiple results.\nHelp us narrow down, can you tell me about "
-            par.innerHTML = prefix+text
+            suffix = "\n You can also choose to see all by typing 'show all' \nor try one more column by typing 'idk'"
+            par.innerHTML = prefix+text+suffix
+            
         }
         else{
             par.innerHTML = text
