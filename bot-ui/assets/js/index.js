@@ -5,46 +5,51 @@ var submit = function(){
     document.getElementById("userInput").value = ''
     console.log(input)
     createResponse('user', input);
-
+    greeting_flag = false
     greetings = ["hi", "hey", "hello", "greetings"]
     greetings.forEach(element => {
-        if(element.toLowerCase() == input){
+        if(element == input.toLowerCase()){
             createResponse('bot', "Hi! How may I help you?", 1);
+            greeting_flag = true
             return;
         }
     });
-    
-    var xhr = new XMLHttpRequest()
-    xhr.open('POST', 'http://localhost:5000/user_input', true)
-    xhr.setRequestHeader('Content-type' , 'application/x-www-form-urlencoded')
 
-    xhr.send('user_input='+input+'&sessionDone='+String(sessionDone))
-    xhr.timeout = 10000;
-    xhr.onload = function(){
-        if(xhr.readyState == 4 && xhr.status == 200){
-            resp = JSON.parse(xhr.response)
-            console.log(resp.text)
-            sessionDone = parseInt(resp['sessionDone'])
-            console.log(sessionDone)
-            if(resp.text.length > 0)
-                createResponse('bot', resp.text, sessionDone)
-            else
-            {
-                sessionDone = 1;
-                createResponse('bot', "Sorry, we could not find appropriate response for you", sessionDone);
+    if(!greeting_flag){
+        greeting_flag = false;
+        var xhr = new XMLHttpRequest()
+        xhr.open('POST', 'http://localhost:5000/user_input', true)
+        xhr.setRequestHeader('Content-type' , 'application/x-www-form-urlencoded')
+
+        xhr.send('user_input='+input+'&sessionDone='+String(sessionDone))
+        xhr.timeout = 30000;
+        xhr.onload = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                resp = JSON.parse(xhr.response)
+                console.log(resp.text)
+                sessionDone = parseInt(resp['sessionDone'])
+                console.log(sessionDone)
+                if(resp.text.length > 0)
+                    createResponse('bot', resp.text, sessionDone)
+                else
+                {
+                    sessionDone = 1;
+                    createResponse('bot', "Sorry, we could not find appropriate response for you", sessionDone);
+                }
             }
         }
-    }
 
-    xhr.ontimeout = function(){
-        sessionDone = 1;
-        createResponse('bot', "Sorry, something went wrong. Request has timed out", sessionDone);
-    }
+        xhr.ontimeout = function(){
+            sessionDone = 1;
+            createResponse('bot', "Sorry, something went wrong. Request has timed out", sessionDone);
+        }
 
-    xhr.onerror = function(){
-        sessionDone = 1
-        createResponse('bot', "Sorry, something went wrong. We encountered an error.", sessionDone)
+        xhr.onerror = function(){
+            sessionDone = 1
+            createResponse('bot', "Sorry, something went wrong. We encountered an error.", sessionDone)
+        }
     }
+    
 }
 
 var createResponse = function(type, text, sd){

@@ -117,6 +117,8 @@ def get_number(text):
     tags = TextBlob(text).tags
     for tag in tags:
         if tag[1] == 'CD':
+            if(tag[0].isdigit()):
+                return int(tag[0])
             num = w2n.word_to_num(str(tag[0]))
             return num
     return False
@@ -133,7 +135,7 @@ def get_intent(text):
         for word in wordnet.synsets(intent):
             for lm in word.lemmas():
                 intent_syn[intent].append(lm.name())
-
+    print(intent_syn)
     any_true = False
     for word in words:
         for intent, syn in intent_syn.items():
@@ -193,6 +195,6 @@ def get_adj(text):
 if __name__ == "__main__":
     # print(get_col_pos())
     # print(get_intent('can I have three movies'))
-    # print(get_number('select three movies'))
+    print(get_number('select four movies'))
     # print(split_actors())
     # print(get_adj('rating higher than 9'))

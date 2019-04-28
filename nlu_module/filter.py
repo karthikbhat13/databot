@@ -65,6 +65,11 @@ def recColoumns(query_text):
 
     query_text_words = query_text.split()
 
+    if 'I' in query_text_words:
+        query_text_words.remove('I')
+    if 'i' in query_text_words:
+        query_text_words.remove('i')
+        
     stem_columns = recEntities.init_datababse()
     # print(stem_columns)
 

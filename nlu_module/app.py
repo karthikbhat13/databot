@@ -50,6 +50,20 @@ def user_input():
          json['text'] = ', '.join(list(ret_rows))
          json['sessionDone'] = 1
          return jsonify(json)
+      
+      elif col == 'num':
+         ret_rows_final = df[[info['cols'][0]]].values
+         print(ret_rows_final)
+         ret_rows_final = [row[0] for row in ret_rows_final]
+
+         if(len(ret_rows_final) > info['number']):
+            ret_rows_final = ret_rows_final[:info['number']]
+
+         json = {}
+         json['text'] = ', '.join(list(ret_rows_final))
+         json['sessionDone'] = 1
+         return jsonify(json)
+
       else:
          json = {}         
          json['text'] = str(col)
@@ -60,14 +74,25 @@ def user_input():
    else:
       print(pre_col)
       print(inp)
-      ret_df = df[df[pre_col] == inp]
-      ret_rows, col = state(ret_df, info)
 
+      if(inp == 'show all'):
+         ret_rows = df[[info['cols'][0]]].values
+         print(ret_rows)
+         ret_rows = [row[0] for row in ret_rows]
+         json = {}
+         json['text'] = ', '.join(list(ret_rows))
+         json['sessionDone'] = 1
+         return jsonify(json)
+      if(inp == "idk"):
+         ret_rows, col = state(df, info)
+      else:
+         ret_df = df[df[pre_col] == inp]
+         ret_rows, col = state(ret_df, info)
 
       if df.empty:
          df = retry.no_col_match(inp)
          df, col = state(df, info)
-         
+
       if col == '':
          ret_rows_final = ret_rows[[info['cols'][0]]].values
          print(ret_rows_final)
@@ -76,6 +101,20 @@ def user_input():
          json['text'] = ', '.join(list(ret_rows_final))
          json['sessionDone'] = 1
          return jsonify(json)
+      
+      elif col == 'num':
+         ret_rows_final = ret_rows[[info['cols'][0]]].values
+         print(ret_rows_final)
+         ret_rows_final = [row[0] for row in ret_rows_final]
+
+         if(len(ret_rows_final) > info['number']):
+            ret_rows_final = ret_rows_final[:info['number']]
+
+         json = {}
+         json['text'] = ', '.join(list(ret_rows_final))
+         json['sessionDone'] = 1
+         return jsonify(json)
+
       else:
          json = {}         
          json['text'] = str(col)
@@ -85,7 +124,11 @@ def user_input():
 
       
 def state(rows, intent_info):
-   print(len(rows.index)) 
+   print(len(rows.index))
+   print(intent_info) 
+   if intent_info['number']:
+      return rows, 'num'
+   
    if len(rows.index) > 2:
       cols = list(rows.columns.values)
       print(cols)
