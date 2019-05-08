@@ -57,7 +57,7 @@ def user_input():
          ret_rows_final = [row[0] for row in ret_rows_final]
 
          if(len(ret_rows_final) > info['number']):
-            ret_rows_final = ret_rows_final[:info['number']]
+            ret_rows_final = ret_rows_final[1:info['number']+1]
 
          json = {}
          json['text'] = ', '.join(list(ret_rows_final))
@@ -108,7 +108,7 @@ def user_input():
          ret_rows_final = [row[0] for row in ret_rows_final]
 
          if(len(ret_rows_final) > info['number']):
-            ret_rows_final = ret_rows_final[:info['number']]
+            ret_rows_final = ret_rows_final[1:info['number']+1]
 
          json = {}
          json['text'] = ', '.join(list(ret_rows_final))

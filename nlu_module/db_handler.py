@@ -45,7 +45,7 @@ def populate_csv_db(file_path):
 
         list_tuple = []
         for row in csvreader:
-            row_tuple = tuple((row[1], row[2], row[4], row[5], row[6], row[8], row[9]))
+            row_tuple = tuple((row[1], row[2], row[3], row[4], row[5], row[6], row[7]))
             list_tuple.append(row_tuple)
     con = db_connect()
     db_create(con)
@@ -129,5 +129,7 @@ def db_select(params, intent_info, col_type, adj_dic):
 if __name__ == "__main__":
     # print(populate_csv_db("imdb-alter.csv"))
 
-    params = {'actor':'Tom Hanks'}
+    # params = {'actor':'Tom Hanks'}
     # db_select(params)
+
+    populate_csv_db("imdb-alter.csv")
